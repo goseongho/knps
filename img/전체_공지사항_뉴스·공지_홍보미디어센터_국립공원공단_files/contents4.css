@@ -1,0 +1,206 @@
+@charset "utf-8";
+
+/* 메인 - 0910수정 */
+#park_mainvisual1 {width:100%;border-bottom:1px solid #e0dfe7;}
+#park_mainvisual1 .park_mainvisual2 {position:relative;overflow:hidden;margin:0 auto;width:980px;height:264px;background:url("/portal/images/inc/bg_subBg.gif") no-repeat;}
+#park_mainvisual1 .park_mainvisual2 .park_title {position:absolute;left:30px;top:140px;padding-top:20px;padding-left:20px;width:400px;height:84px;background:url("/portal/images/inc/bg_subTitle.png") repeat-x;}
+#park_mainvisual1 .park_mainvisual2 .park_title ul {background:url("/portal/images/inc/bg_subTitle_line.gif") no-repeat left center;padding-left:10px;}
+#park_mainvisual1 .park_mainvisual2 .park_title ul li {line-height:28px;}
+#park_mainvisual1 .park_mainvisual2 .park_title ul li .sp_visual_title {font-size:16px;color:#fff;letter-spacing:-1px;/*opacity:0.5;filter:alpha(opacity=55);*/}
+#park_mainvisual1 .park_mainvisual2 .park_title ul li .sp_visual_title1 {font-size:24px;color:#fff;font-weight:bold;}
+#park_mainvisual1 .park_mainvisual2 .park_menu {float:right;padding:13px 40px 0 0;width:240px;}
+#park_mainvisual1 .park_mainvisual2 .park_menu .sub_menu01 {overflow:hidden;width:140px;float:left;}
+#park_mainvisual1 .park_mainvisual2 .park_menu .sub_menu01 li {width:140px;padding-top:15px;overflow:hidden;}
+#park_mainvisual1 .park_mainvisual2 .park_menu .sub_menu01 li a {color:#535353;}
+#park_mainvisual1 .park_mainvisual2 .park_menu .sub_menu01 li span {display:inline-block;height:35px;padding-left:10px;line-height:14px;padding-top:3px;}
+#park_mainvisual1 .park_mainvisual2 .park_menu .sub_menu01 li span.span_vertical {padding-top:10px;height:25px;}
+#park_mainvisual1 .park_mainvisual2 .park_menu .sub_menu02 {overflow:hidden;width:100px;float:right;}
+#park_mainvisual1 .park_mainvisual2 .park_menu .sub_menu02 li {width:140px;padding-top:15px;overflow:hidden;}
+#park_mainvisual1 .park_mainvisual2 .park_menu .sub_menu02 li a {color:#535353;}
+#park_mainvisual1 .park_mainvisual2 .park_menu .sub_menu02 li span {display:inline-block;height:35px;padding-left:10px;line-height:14px;padding-top:3px;}
+#park_mainvisual1 .park_mainvisual2 .park_menu .sub_menu02 li span.span_vertical {padding-top:10px;height:25px;}
+
+/* 본문 */
+/* 2014-09-02 곽수정 */
+.park_contents {overflow:hidden;}
+.park_contents .park_content_row1 {overflow:hidden;}
+.park_contents .park_content_row1 .complaint_info {float:left;width:388px;height:196px;border-left:1px solid #e0dfe7;border-right:1px solid #e0dfe7;border-bottom:1px solid #e0dfe7;}
+.park_contents .park_content_row1 .complaint_info h3 {padding:11px 0 11px 18px;color:#535353;font-size:14px;background:#fbfbfc;border-bottom:1px solid #e0dfe7;}
+.complaint_info p{padding:18px 0 15px 19px;}
+.complaint_info ul{overflow:hidden;width:363px;padding:0 0 0 18px;}
+.complaint_info li{float:left;padding:0 5px 6px 0;}
+.park_contents .park_content_row1 .claim_open {float:left;width:387px;height:196px;border-right:1px solid #e0dfe7;border-bottom:1px solid #e0dfe7;}
+.park_contents .park_content_row1 .claim_open h3 {padding:11px 0 11px 18px;color:#535353;font-size:14px;background:#fbfbfc;border-bottom:1px solid #e0dfe7;}
+.claim_open p{padding:18px 0 15px 19px;}
+.claim_open ul{overflow:hidden;width:363px;padding:0 0 0 18px;}
+.claim_open li{float:left;padding:0 5px 6px 0;}
+.park_contents .park_content_row1 .morals_report_center {float:right;margin-right:3px;width:198px;height:196px;border-right:1px solid #e0dfe7;border-bottom:1px solid #e0dfe7;}
+.park_contents .park_content_row1 .morals_report_center h3 {padding:11px 0 11px 18px;color:#535353;font-size:14px;background:#fbfbfc;border-bottom:1px solid #e0dfe7;}
+.morals_report_center .morals_txt{height:80px;padding:35px 0 0 21px;background:url("/portal/images/contents/bg_morals_report_center.gif") no-repeat 111px 33px;}
+.morals_report_center .morals_txt span{display:block;}
+.morals_report_center .morals_btn{padding-left:20px;}
+
+
+/* 2015-12-04 장윤기_알림판추가작업 */
+.park_banner_new {position: absolute; top: 403px; left: 50%; margin-left: 478px;}
+.park_banner_new_1 {position: absolute;top: 1px;right:20px}
+.park_banner_new_2 {position: absolute;top: 1px;right:35px}
+.park_banner_new_3 {position: absolute;top: 1px;right:50px}
+.park_banner_new_4 {position: absolute;top: 1px;right:65px}
+.park_banner_new_5 {position: absolute;top: 1px;right:80px}
+.park_banner_new_6 {position: absolute;top: 1px;right:95px}
+.park_banner_new_7 {position: absolute;top: 1px;right:110px}
+
+
+
+
+
+/* 2014-09-02 곽수정 */
+.park_content_row2 {overflow:hidden;width:100%;}
+.scene{position:relative;float:left;width:776px;border-left:1px solid #e0dfe7;border-right:1px solid #e0dfe7;border-bottom:1px solid #e0dfe7;}
+.scene h3{padding:11px 0 11px 18px;color:#535353;font-size:14px;background:#fbfbfc;border-bottom:1px solid #e0dfe7;}
+.scene ul{overflow:hidden;height:273px;padding:5px 0 0 ;}
+.scene li{float:left;width:236px;padding-left:17px;}
+.scene dl{padding:10px 0 10px 5px; height:70px;}
+.scene dt{font-weight:bold;overflow: hidden;white-space: nowrap;text-overflow: ellipsis;}
+.scene dd{color:#a1a1a1;font-size:11px;}
+.scene .scene_info{padding-top:10px;text-align:center;background:url("/portal/images/contents/bar_dot.gif") no-repeat 3px 0;}
+.scene .scene_info span{color:#cacaca;}
+.scene .scene_more{position:absolute;top:11px; right:18px;}
+/* 메인_토지매매청구 */
+.land{float:left;width:198px;border-right:1px solid #e0dfe7;border-bottom:1px solid #e0dfe7;}
+.land h3{padding:11px 0 11px 18px;color:#535353;font-size:14px;background:#fbfbfc;border-bottom:1px solid #e0dfe7;}
+.land ul{height:193px;border-bottom:1px solid #e0dfe7;}
+.land li{padding:17px 0 0 17px;line-height:17px;}
+.land li span{display:block;}
+.land li a{display:block;padding-top:5px;}
+.land li.land_in01{background:url("/portal/images/contents/bg_land01.gif") no-repeat 134px 31px;}
+.land li.land_in02{background:url("/portal/images/contents/bg_land02.gif") no-repeat 123px 55px;}
+/* 메인_공단소식 */
+/* 2014-09-02 곽수정 */
+.park_content_row3 {overflow:hidden;width:100%;border-left:1px solid #e0dfe7;}
+.m_news{position:relative;float:left;width:387px;height:167px;border-right:1px solid #e0dfe7;border-bottom:1px solid #e0dfe7;}
+.m_news2{position:relative;float:left;width:388px;height:167px;border-right:1px solid #e0dfe7;border-bottom:1px solid #e0dfe7;}
+.m_news h3, .m_news2 h3{padding:11px 0 11px 18px;color:#535353;font-size:14px;background:#fbfbfc;border-bottom:1px solid #e0dfe7;}
+.m_news p, .m_news2 p {position:absolute;top:55px;right:15px; z-index:1}
+.m_news h4, .m_news2 h4 {position:absolute;top:40px;overflow:hidden;margin:16px 0 16px 14px;border-left:1px solid #d5d5d5;background:url("/portal/images/inc/line-gray.gif") repeat-x 0 24px}
+.m_news h4 {width:189px;}
+.m_news2 h4 {width:304px;}
+.m_news h4.m_tab01, .m_news2 h4.m_tab01 {left:0}
+.m_news h4.m_tab02, .m_news2 h4.m_tab02 {left:56px}
+.m_news h4.m_tab03 {left:112px}
+.m_news h4.m_tab04 {left:168px}
+.m_news h4 a, .m_news2 h4 a {display:inline-block;padding:0 5px;background:#f5f5f5; line-height:23px;border:1px solid #d5d5d5;border-left:none;font-weight:normal}
+.m_news h4 a.on, .m_news2 h4 a.on {background:#fff;}
+.m_tab{overflow:hidden;width:364px; margin:16px 0 16px 14px;border-left:1px solid #d5d5d5;background:url(/portal/images/inc/line-gray.gif) repeat-x 0 24px;}
+.m_tab li{float:left;}
+.m_tab li a{display:inline-block;padding:0 5px;background:#f5f5f5; line-height:23px;border:1px solid #d5d5d5;border-left:none; }
+.m_tab li a.on{background:#fff;}
+.m_list{position:absolute;top:95px;padding:0 0 0 16px;}
+.m_list li{overflow:hidden;width:346px;padding-left:16px;background:url("/portal/images/inc/blet_gray02.gif") no-repeat 0 7px;}
+.m_list li a{float:left;width:265px;overflow: hidden;white-space: nowrap;text-overflow: ellipsis;}
+.m_list li span{float:right;width:80px; text-indent:8px;color:#919191;}
+.m_list li span.add_bar{background:url("/portal/images/contents/bar_gray.gif") no-repeat 0 5px;}
+.c_center{float:left;width:198px;height:167px;border-right:1px solid #e0dfe7;border-bottom:1px solid #e0dfe7;}
+.c_center h3{padding:11px 0 11px 18px;color:#535353;font-size:14px;background:#fbfbfc;border-bottom:1px solid #e0dfe7;}
+.c_center .c_center_txt{height:60px;padding:24px 0 0 18px;background:url("/portal/images/contents/bg_center.gif") no-repeat 116px 28px;line-height:16px;}
+.c_center .c_center_txt span{display:block;}
+.c_center .c_center_btn{padding-left:20px;}
+.c_center ul{padding:10px 10px 0px 10px}
+.c_center li{border:1px solid #d5d5d5;margin-bottom:3px;padding:5px;width:90%}
+/* 관련사이트 */
+/* 2014-08-31 곽수정 */
+.banner_content02{position:relative;width:1200px;height:80px;border-left:1px solid #e0dfe7;border-right:1px solid #e0dfe7;}
+.banner_content02 .sp_prev{position:absolute; top:30px;left:20px;}
+.banner_content02 .sp_next{position:absolute; top:30px;right:20px;}
+.banner_content02 .banner_slides{padding:14px 45px 14px 45px;}
+.banner_content02 .banner_slides ul {padding-left:10px}
+.banner_content02 .banner_slides li{padding-right:15px;}
+
+/* 오른쪽 메뉴 2013.11.6 전주은 수정 */
+.right_Menu {position:absolute;right:0;top:0;bottom:0;overflow:hidden;width:79px;background:url("/portal/images/inc/bg_rightContent02.gif") repeat-y;z-index:10;}
+.right_Menu .go_national {width:79px;height:121px;background:url("/portal/images/inc/bg_quickbar01.jpg") no-repeat;}
+.right_Menu .go_national a {display:block;width:76px;height:121px;color:#fff;font-weight:bold; font-size:14px;}
+.right_Menu .go_national a span {display:block;padding:45px 0 35px 0;letter-spacing:-1px;text-align:center;}
+.right_Menu .go_menu {width:73px;z-index:999;border:3px solid #52ba6f;background:#fff;}
+.right_Menu .go_menu ul {}
+.right_Menu .go_menu ul li {padding-top:0px;text-align:center;}
+.right_Menu .go_menu ul li a{display:block;padding-top:15px;padding-bottom:15px;color:#454545;}
+.right_Menu .go_menu ul li span {display:block;font-size:11px;padding-top:5px;line-height:14px;}
+/* //오른쪽 메뉴 */
+
+/* 왼쪽 메뉴 2013.11.6 수정 */
+.right_Menu1 {position:absolute;left:0;top:0;bottom:0;overflow:hidden;width:79px;background:url("/portal/images/inc/bg_rightContent02.gif") repeat-y;z-index:10;}
+.right_Menu1 .go_national {width:79px;height:121px;background:url("/portal/images/inc/bg_quickbar02.jpg") no-repeat;}
+.right_Menu1 .go_national a {display:block;width:76px;height:121px;color:#fff;font-weight:bold; font-size:14px;}
+.right_Menu1 .go_national a span {display:block;padding:45px 0 35px 0;letter-spacing:-1px;text-align:center;}
+.right_Menu1 .go_menu {width:73px;z-index:10000;border:3px solid #168ab7;background:#fff;}
+.right_Menu1 .go_menu ul li {padding-top:15px;text-align:center;background:url("/portal/images/inc/bar_qbline.gif") no-repeat 9px bottom;}
+.right_Menu1 .go_menu ul li a{display:block;padding-bottom:16px;color:#454545;}
+.right_Menu1 .go_menu ul li span {display:block;font-size:11px;padding-top:5px;line-height:14px;}
+
+/* 2014-08-31 곽수정 */
+.left_Menu {position:absolute;left:0;top:0;bottom:0;overflow:hidden;width:79px;background:url("/portal/images/inc/bg_rightContent02.gif") repeat-y;z-index:10;}
+.left_Menu .go_national {width:79px;height:123px;background:url("/portal/images/inc/bg_quickbar02.jpg") no-repeat;}
+.left_Menu .go_national a {display:block;width:76px;height:121px;color:#fff;font-weight:bold; font-size:14px;}
+.left_Menu .go_national a span {display:block;padding:45px 0 35px 0;letter-spacing:-1px;text-align:center;}
+.left_Menu .go_menu {width:73px;z-index:999;border:3px solid #168ab7;background:#fff;}
+.left_Menu .go_menu ul li {text-align:center;background:url("/portal/images/inc/bar_qbline.gif") no-repeat 9px bottom;}
+.left_Menu .go_menu ul li a{display:block;padding-top:15px;padding-bottom:15px;color:#454545;}
+.left_Menu .go_menu ul li span {display:block;font-size:11px;padding-top:5px;line-height:14px;}
+/* //왼쪽 메뉴 */
+
+/* 국립공원 자원 - 자원현황 - 0911수정 */
+.resource_status {}
+.resource_status .h2_resource {background:url("/portal/images/inc/ico_arrow_green.gif") no-repeat left center;color:#323232;padding-left:10px;font-size:14px;font-weight:bold;}
+.resource_status .resource_tab {padding-top:13px;overflow:hidden;}
+.resource_status .resource_tab li {float:left;background:url("/portal/images/inc/bg_tab.gif") no-repeat right 10px;}
+.resource_status .resource_tab li a {display:inline-block;font-weight:bold;font-size:12px;width:154px;color:#fff;text-align:center;padding-right:1px;padding-top:10px;padding-bottom:9px;background:url("/portal/images/inc/tab2_off.gif") no-repeat left center;}
+.resource_status .resource_tab li a.on {display:inline-block;width:155px;text-align:center;color:#fff;font-weight:bold;background:url("/portal/images/inc/tab2_on.gif") no-repeat left center;}
+.resource_status .resource_tab li a:hover {background:url("/portal/images/inc/tab2_on.gif") no-repeat left center;}
+.resource_status .resource_tab li.last {background:none;}
+.resource_status .resource_content .resource_graph {margin-top:12px;background-color:#eee;}
+.resource_status .resource_content .resource_graph .resource_graph1 {width:736px;height:402px;border:1px solid #dedede;}
+.resource_status .resource_content .resource_graph .resource_text {width:736px;height:58px;border-left:1px solid #dedede;border-right:1px solid #dedede;border-bottom:1px solid #dedede;background-color:#fff;} 
+.resource_status .resource_content .resource_graph .resource_text ul {overflow:hidden;padding-top:20px;padding-left:18px;}
+.resource_status .resource_content .resource_graph .resource_text ul li {float:left;width:75px;}
+.resource_status .resource_content .resource_graph .resource_text ul li,
+.resource_status .resource_content .resource_graph .resource_text ul li span {vertical-align:middle;}
+.resource_status .resource_content .resource_nature {width:736px;height:461px;border:1px solid #dedede;background-color:#eee;}
+
+/* ICON _ Graph */
+.graph_dot1 {display:inline-block;width:10px;height:10px;background:url("/portal/images/inc/graph_dot1.gif") no-repeat left center;}
+.graph_dot2 {display:inline-block;width:10px;height:10px;background:url("/portal/images/inc/graph_dot2.gif") no-repeat left center;}
+.graph_dot3 {display:inline-block;width:10px;height:10px;background:url("/portal/images/inc/graph_dot3.gif") no-repeat left center;}
+.graph_dot4 {display:inline-block;width:10px;height:10px;background:url("/portal/images/inc/graph_dot4.gif") no-repeat left center;}
+.graph_dot5 {display:inline-block;width:10px;height:10px;background:url("/portal/images/inc/graph_dot5.gif") no-repeat left center;}
+.graph_dot6 {display:inline-block;width:10px;height:10px;background:url("/portal/images/inc/graph_dot6.gif") no-repeat left center;}
+.graph_dot8 {display:inline-block;width:10px;height:10px;background:url("/portal/images/inc/graph_dot8.gif") no-repeat left center;}
+.graph_dot9 {display:inline-block;width:10px;height:10px;background:url("/portal/images/inc/graph_dot9.gif") no-repeat left center;}
+.graph_dot10 {display:inline-block;width:10px;height:10px;background:url("/portal/images/inc/graph_dot10.gif") no-repeat left center;}
+
+.park_camping_wrap{overflow:hidden;width:100%;}
+.park_camping_wrap_l{float:left;width:356px;}
+.park_camping_wrap_r{float:right;width:367px;}
+.t_camping{width:100%;margin-top:13px;border-top:1px solid #54be78;}
+.t_camping thead th{padding:10px 13px;background:#f8f8f8;border-bottom:1px solid #dddddd;text-align:left;}
+.t_camping tbody th{border-bottom:1px solid #dddddd;border-right:1px solid #dddddd;font-weight:normal;}
+.t_camping tbody td{padding:10px 0 10px 14px;border-bottom:1px solid #dddddd;}
+.t_camping tbody td.r_line{border-right:1px solid #dddddd;}
+/*파노라마 추가 2018.06.14*/
+.t_camping .panorama{float:right;font-weight:normal; border:#54be78 1px solid;border-radius:5px;padding:5px 10px; background:#fff}
+.t_camping .panorama:hover{background:#54be78;color:#fff;transform:scale(1); -webkit-transition :all 0.3s ease; transition:all 0.3s ease;}
+
+
+/* 2015.08 공단_ 인사관리 추가 */
+.mt5 {margin-top:5px;}
+.employ_ncs {margin:5px 0; border:1px solid #e1e1e1; background:#fafafa; padding:10px; width:685px;}
+.employ_process01 {margin:5px 0; background:url("/portal/images/employ/process_01.gif") no-repeat; height:65px;}
+.employ_process02 {margin:5px 0; background:url("/portal/images/employ/process_02.gif") no-repeat; height:65px;}
+.employ_process01 li, .employ_process02 li {text-indent:-9999px;}
+
+
+
+
+
+

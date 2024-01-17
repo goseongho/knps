@@ -1,0 +1,49 @@
+@charset "utf-8";
+
+/* 명품마을 현황 - 명품마을 소개(관매도) */
+.info_masterpiece {/* margin-bottom:60px;*/}/* 0906수정 */
+.info_masterpiece .master_info {overflow:hidden;}
+.info_masterpiece .master_info .h4_master {float:left;background:url("/portal/images/inc/ico_arrow_green.gif") no-repeat left center;color:#323232;padding-left:10px;font-size:14px;font-weight:bold;}
+.info_masterpiece .master_info a {float:right;} 
+.info_masterpiece .island_info {margin-top:9px;border:3px solid #dedede;/*width:725px;*/height:159px;overflow:hidden;}
+.info_masterpiece .island_info .gwamaedo_info {padding:25px 0 25px 67px;}
+.info_masterpiece .island_info .gwamaedo_info img {float:left;border-right:1px solid #d9d9d9;padding-right:64px;}
+.info_masterpiece .island_info .gwamaedo_info ul {float:left;padding-left:55px;padding-top:5px;}
+.info_masterpiece .island_info .gwamaedo_info ul li {background:url("/portal/images/inc/ico_grayDot1.gif") no-repeat left center;padding-left:9px;line-height:24px;}
+.info_masterpiece .island_info .gwamaedo_info ul li span {color:#646464;font-weight:bold;}
+.info_masterpiece .island_info .gwamaedo_info ul li a {text-decoration:underline;}
+.info_masterpiece .island_content .island_menu {overflow:hidden;margin-top:32px;}
+.info_masterpiece .island_content .island_menu li {float:left;/*background:url("/portal/images/inc/bg_tab1.gif") no-repeat right 10px;*/}
+.info_masterpiece .island_content .island_menu li a {white-space:nowrap;display:block;font-size:12px;padding-left:10px;background:url("/portal/images/inc/bg_tablimitnew1_off.gif") no-repeat 0 0;color:#ffffff;font-weight:bold;}
+.info_masterpiece .island_content .island_menu li a span{display:block;width:226px;height:27px;padding:8px 10px 0 0;margin-bottom:10px;text-align:center;background:url("/portal/images/inc/bg_tablimitnew2_off.gif") no-repeat 100% 0;} 
+.info_masterpiece .island_content .island_menu li a.on {background:url("/portal/images/inc/bg_tablimitnew1_on.gif") no-repeat 0 0;text-decoration:underline}
+.info_masterpiece .island_content .island_menu li a.on span{background:url("/portal/images/inc/bg_tablimitnew2_on.gif") no-repeat 100% 0;}
+ .ntab01_content {padding-top:10px;}
+/*.info_masterpiece .island_content .island_menu li a:hover {background:url("/portal/images/inc/tab_on1.gif") no-repeat left center; background-size:cover;}*/	
+.info_masterpiece .island_content .island_menu li.last {background:none;}
+.info_masterpiece .island_content .before_after {border:1px solid #dedede;background:#f3f3f3;width:680px;padding:0px 27px 29px 27px;margin-top:12px;}
+.info_masterpiece .island_content .before_after .before_after1 {margin-top:30px;}
+.info_masterpiece .island_content .before_after .before_after1 ul {overflow:hidden;}
+.info_masterpiece .island_content .before_after .before_after1 ul li {float:left;border:1px solid #dedede;}
+.info_masterpiece .island_content .before_after .before_after1 ul li p {background:#d9d9d9;text-align:center;padding:10px 0;color:#646464;font-weight:bold;}
+.info_masterpiece .island_content .before_after .before_after1 ul li.none {border:none;padding-top:88px;}
+.info_masterpiece .island_content .island_submenu {width:736px;height:58px;background:#f9f9f9;border:1px solid #dfdfdf;margin-top:12px;overflow:hidden}
+.info_masterpiece .island_content .island_submenu ul {overflow:hidden;padding-left:12px;padding-top:10px;}
+.info_masterpiece .island_content .island_submenu ul li {float:left;background:url("/portal/images/inc/bg_courseline.gif") no-repeat right center;padding:0 10px;}
+.info_masterpiece .island_content .island_submenu ul li.none {background:none;}
+.info_masterpiece .island_content .island_submenu ul li a.on {color:#333333;font-weight:bold;}
+.info_masterpiece .island_content .island_submenu2 {width:736px;height:38px;background:#f9f9f9;border:1px solid #dfdfdf;margin-top:12px;}
+.info_masterpiece .island_content .island_submenu2 ul {overflow:hidden;padding-left:12px;padding-top:10px;}
+.info_masterpiece .island_content .island_submenu2 ul li {float:left;background:url("/portal/images/inc/bg_courseline.gif") no-repeat right center;padding:0 10px;}
+.info_masterpiece .island_content .island_submenu2 ul li.none {background:none;}
+.info_masterpiece .island_content .island_submenu2 ul li a.on {color:#333333;font-weight:bold;}
+.info_masterpiece .island_content .island_info_desc {margin-top:30px;}
+.info_masterpiece .island_content .island_info_desc .h5_course {background:url("/portal/images/inc/gray_circle_arrow.gif") no-repeat left center;padding-left:20px;}
+.info_masterpiece .island_content .island_info_desc table {margin-left:20px;border-top:1px solid #54be78;width:716px;margin-top:12px;}
+.info_masterpiece .island_content .island_info_desc table th {border-bottom:1px solid #e6e6e6;border-right:1px solid #e6e6e6;background:#f8f8f8;height:47px;color:#646464;}
+.info_masterpiece .island_content .island_info_desc table td {text-align:center;/* height:31px; */border-bottom:1px solid #e6e6e6;border-right:1px solid #e6e6e6;padding:6px 0 8px 0;}
+.info_masterpiece .island_content .island_info_desc table td.align_left {text-align:left;padding-left:10px;}
+.info_masterpiece .island_content .island_info_desc table td.last {border-right:none;}
+.town_intro{padding-top:20px;}
+.town_intro_img{padding-bottom:20px;}
+.town_intro_txt{padding:0 10px 10px 10px;}

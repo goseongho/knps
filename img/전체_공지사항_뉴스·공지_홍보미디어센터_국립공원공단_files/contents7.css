@@ -1,0 +1,449 @@
+@charset "utf-8";
+
+/* 책임경영 - 경영성과 */
+.ethics01 {}
+.ethics01 .ethics01_1 {overflow:hidden;padding-top:30px;border-bottom:1px solid #ebebeb;}
+.ethics01 .ethics01_1 .sub_ethics01 {float:left;}
+.ethics01 .ethics01_1 .sub_ethics01 .h4_ethics {background:url("/portal/images/inc/ico_arrow_blue.gif") no-repeat left center;color:#323232;padding-left:10px;font-size:14px;font-weight:bold;}
+.ethics01 .ethics01_1 .sub_ethics02 {float:right;}
+.ethics01 .ethics01_1 .sub_ethics02 .h4_ethics {background:url("/portal/images/inc/ico_arrow_blue.gif") no-repeat left center;color:#323232;padding-left:10px;font-size:14px;font-weight:bold;}
+.ethics01 .ethics01_1 .sub_ethics01 ul,
+.ethics01 .ethics01_1 .sub_ethics02 ul {padding:10px 0 40px 10px;}
+.ethics01 .ethics01_1 .sub_ethics01 ul li,
+.ethics01 .ethics01_1 .sub_ethics02 ul li {line-height:18px;}
+.ethics01 .ethics01_1 .sub_ethics01 span.sp_ethics, 
+.ethics01 .ethics01_1 .sub_ethics02 span.sp_ethics {color:#646464;font-weight:bold;} 
+.ethics01 .ethics01_2 {overflow:hidden;padding-top:40px;}
+.ethics01 .ethics01_2 .sub_ethics01 {float:left;}
+.ethics01 .ethics01_2 .sub_ethics01 .h4_ethics {background:url("/portal/images/inc/ico_arrow_blue.gif") no-repeat left center;color:#323232;padding-left:10px;font-size:14px;font-weight:bold;}
+.ethics01 .ethics01_2 .sub_ethics02 {float:right;}
+.ethics01 .ethics01_2 .sub_ethics02 .h4_ethics {background:url("/portal/images/inc/ico_arrow_blue.gif") no-repeat left center;color:#323232;padding-left:10px;font-size:14px;font-weight:bold;}
+.ethics01 .ethics01_2 .sub_ethics01 span.sp_ethics, 
+.ethics01 .ethics01_2 .sub_ethics02 span.sp_ethics {color:#646464;font-weight:bold;} 
+.ethics01 .ethics01_2 .sub_ethics01 ul,
+.ethics01 .ethics01_2 .sub_ethics02 ul {padding:10px 0 30px 10px;}
+.ethics01 .ethics01_2 .sub_ethics01 ul li,
+.ethics01 .ethics01_2 .sub_ethics02 ul li {line-height:18px;}
+
+/* 0910수정 */
+
+.ethics_tab01 .ntab01 {overflow:hidden;}
+.ethics_tab01 .ntab01 li {float:left;margin-bottom:0px;}
+.ethics_tab01 .ntab01 li a {white-space:nowrap;display:block;font-size:14px;padding-left:28px;background:url("/portal/images/inc/bg_tablimitnew1_off.gif") no-repeat 0 0;/* border-radius:10px 10px 0 0; border-right:1px solid #8f8f8f;background:#acacac;*/color:#ffffff;font-weight:bold;}
+.ethics_tab01 .ntab01 li span{display:block;height:27px;padding:8px 48px 0px 26px;background:url("/portal/images/inc/bg_tablimitnew2_off.gif") no-repeat 100% 0;}
+.ethics_tab01 .ntab01 li a.on {background:url("/portal/images/inc/bg_tablimitnew1_on.gif") no-repeat 0 0; text-decoration:underline;}
+.ethics_tab01 .ntab01 li a.on span{background:url("/portal/images/inc/bg_tablimitnew2_on.gif") no-repeat 100% 0;}
+
+.ethics_tab01 .nab01_contents {padding-top:50px;}
+.ethics_tab01 .nab01_contents .award_content {background:url("/portal/images/inc/bg_award.gif") no-repeat 4px 199px;}
+.ethics_tab01 .nab01_contents .award_content .ul_award {overflow:hidden;}
+.ethics_tab01 .nab01_contents .award_content .ul_award li {float:left;padding:0 48px;height:200px;}
+.ethics_tab01 .nab01_contents .award_content .ul_award li span {}
+.ethics_tab01 .nab01_contents .award_content .ul_award li img {border:1px solid #dedede;vertical-align:bottom;}
+.ethics_tab01 .nab01_contents .award_content .ul_award li img.mt49 {display:inline-block;margin-top:49px;margin-left:-25px;}
+.ethics_tab01 .nab01_contents .award_content .ul_name {overflow:hidden;padding-top:20px;}
+.ethics_tab01 .nab01_contents .award_content .ul_name li {float:left;padding:0 29px;text-align:center;}
+.ethics_tab01 .nab01_contents .award_content .ul_name li span {display:block;width:190px;}
+.ethics_tab01 .nab01_contents .award_content .ul_name li span.sp_title {color:#5a5a5a;font-weight:bold;}
+
+.ethics_tab01 .nab01_contents .award_content1 {background:url("/portal/images/inc/bg_award.gif") no-repeat 4px 197px;}
+.ethics_tab01 .nab01_contents .award_content1 .ul_award {overflow:hidden;}
+.ethics_tab01 .nab01_contents .award_content1 .ul_award li {float:left;padding:0 48px;height:200px;}
+.ethics_tab01 .nab01_contents .award_content1 .ul_award li span {}
+.ethics_tab01 .nab01_contents .award_content1 .ul_award li img {border:1px solid #dedede;vertical-align:bottom;}
+.ethics_tab01 .nab01_contents .award_content1 .ul_award li img.mt49 {display:inline-block;margin-top:49px;margin-left:-25px;}
+.ethics_tab01 .nab01_contents .award_content1 .ul_name {overflow:hidden;padding-top:20px;}
+.ethics_tab01 .nab01_contents .award_content1 .ul_name li {float:left;padding:0 29px;text-align:center;}
+.ethics_tab01 .nab01_contents .award_content1 .ul_name li span {display:block;width:190px;}
+.ethics_tab01 .nab01_contents .award_content1 .ul_name li span.sp_title {color:#5a5a5a;font-weight:bold;}
+
+.ethics_tab01 .nab01_contents .award_content2 {background:url("/portal/images/inc/bg_award.gif") no-repeat 4px 199px;}
+.ethics_tab01 .nab01_contents .award_content2 .ul_award {overflow:hidden;}
+.ethics_tab01 .nab01_contents .award_content2 .ul_award li {float:left;padding:0 48px;height:200px;}
+.ethics_tab01 .nab01_contents .award_content2 .ul_award li span {}
+.ethics_tab01 .nab01_contents .award_content2 .ul_award li img {border:1px solid #dedede;vertical-align:bottom;}
+.ethics_tab01 .nab01_contents .award_content2 .ul_award li img.mt49 {display:inline-block;margin-top:49px;margin-left:-25px;}
+
+.ethics_tab01 .nab01_contents .award_content2 .ul_award1 {overflow:hidden;}
+.ethics_tab01 .nab01_contents .award_content2 .ul_award1 li {float:left;padding:58px 25px 0 25px;height:142px;}
+.ethics_tab01 .nab01_contents .award_content2 .ul_award1 li span {}
+.ethics_tab01 .nab01_contents .award_content2 .ul_award1 li img {border:1px solid #dedede;vertical-align:bottom;}
+.ethics_tab01 .nab01_contents .award_content2 .ul_award1 li img.mt49 {display:inline-block;margin-top:49px;margin-left:-25px;}
+
+.ethics_tab01 .nab01_contents .award_content2 .ul_name {overflow:hidden;padding-top:20px;}
+.ethics_tab01 .nab01_contents .award_content2 .ul_name li {float:left;padding:0 10px 0 24px;text-align:center;}
+.ethics_tab01 .nab01_contents .award_content2 .ul_name li span {display:block;width:205px;}
+.ethics_tab01 .nab01_contents .award_content2 .ul_name li span.sp_title {color:#5a5a5a;font-weight:bold;}
+/* 청년소통방 */
+.ethics04_list .year_box{width:100%;padding-bottom:14px;}
+.ethics04_list .year_box .year_left{float:left; margin-bottom:14px;}
+.ethics04_list .year_box .year_left li{display:inline;}
+.ethics04_list .year_box .year_left .year_text_bold{font-weight:bold; color:#474747;font-size:20px;}
+.ethics04_list .year_box .year_left .year_text_bold, .ethics04_list .year_box .year_left img {vertical-align:middle;}
+.ethics04_list .year_box .year_right{float:right;}
+.ethics04_list .year_box .year_right li{display:inline;padding-right:12px;padding-left:8px;background:url("/portal/images/inc/vertical_line.gif") no-repeat right center;}
+.ethics04_list .year_box .year_right .year_text_bold_2{font-weight:bold; color:#454545;}
+.ethics04_list .year_box ul li.first {padding-left:0px;}
+.ethics04_list .year_box ul li.finally {padding-right:0px;background:none;}
+.ethics04_list .year_box .year_dot_line{clear:both;overflow:hidden;}
+
+
+.list_talk{}
+.list_talk .ethics04_top{ width:100%; margin:13px 0 21px 0; overflow:hidden;}
+.list_talk .ethics04_top select{float:left; width:110px; height:23px;}
+.list_talk .ethics04_top form{float:right;}
+.list_talk .ethics04_top form input{margin-right:5px;}
+.list_talk .ethics04_top .txt_top{float:left;font-size:11px;width:200px;padding-top:8px;color:#646464;}
+.list_talk .ethics04_top .txt_top em{font-weight:bold;padding-left:8px;margin-left:6px;background:url("/portal/images/inc/vertical_line.gif") no-repeat 0 2px;}
+
+.ethics04_list1{border-bottom:1px solid #e6e6e6;border-top:1px solid #4ca2d8;}
+.ethics04_1 {overflow:hidden;border-top:1px solid #e6e6e6;}
+.ethics04_1.bottom {border-bottom:1px solid #e6e6e6;}
+.ethics04_1 .sp_left {float:left;margin:23px 15px 23px 10px;width:208px; height:118px;background:#eee}
+.ethics04_1 .ethics_desc {float:left;overflow:hidden;width:477px;height:150px;}
+.ethics04_1 .ethics_desc .h3_ethics {font-size:14px;color:#323232;padding:23px 0px 5px 0px;}
+.ethics04_1 .ethics_desc .h3_ethics a{color:#323232;}
+.ethics04_1 .ethics_desc ul li {float:left;color:#929292;font-size:11px;padding-left:12px;padding-right:12px;padding-bottom:5px;background:url("/bear/images/front/inc/vertical_line.gif") no-repeat right center;}
+.ethics04_1 .ethics_desc ul li.first {padding-left:0px;}
+.ethics04_1 .ethics_desc ul li.finally {padding-right:0px;background:none;}
+.ethics04_1 .ethics_desc .sp_btn {display:block;padding-top:12px;}
+.ethics04_1 .ethics_desc .p_visit {display:block;color:#646464;margin-bottom:15px;}
+.ethics04_1 .ethics_desc .p_visit a{color:#646464;}
+.ethics04_1 .ethics_desc1 {overflow:hidden;}
+.ethics04_1 .ethics_desc1 .ico_eco{float:left;}
+.ethics04_1 .ethics_desc1 .txt_ecor{float:right;color:#646464;font-size:11px;padding-right:10px;}
+
+.ethics04_view .ethics_list_view_top{width:100%; margin:40px 0 10px 0;}
+.ethics04_view .ethics_list_view_top ul{text-align:right;}
+.ethics04_view .ethics_list_view_top ul li{display:inline;}
+
+.ethics04_view .open_table_2{clear:both; border-top:1px solid #54be78; width:100%;}
+.ethics04_view .open_table_2 thead th{background-color:#f8f8f8; border-bottom:1px solid #dddddd; height:33px; text-align:center;}
+.ethics04_view .open_table_2 td{border-bottom:1px solid #dddddd; height:33px;text-align:center;border-right:1px solid #e6e6e6;}
+.ethics04_view .open_table_2 .last{border-bottom:1px solid #dddddd; border-right:0;}
+.ethics04_view .open_table_2 tbody th.text_bold_2{border-bottom:1px solid #dddddd; height:33px;text-align:center;border-right:1px solid #e6e6e6; font-weight:bold;}
+.ethics04_view .open_table_2 .text_margin{text-align:left; padding-left:20px;}
+.ethics04_view .open_table_2 .text_margin_2{text-align:left; padding:22px 0 47px 20px;}
+.ethics04_view .open_table_2 .text_margin_2 .sp_tdimg {display:block;text-align:center; padding:22px 0 47px 0px;}
+.ethics04_view .open_table_2 .text_margin img{margin-right:5px;}
+.ethics04_view .open_table_2 .text_margin, .ethics04_view .open_table_2 .text_margin img{vertical-align:middle;}
+
+.ethics04_view .list_arrow{border-bottom:1px solid #dddddd; width:100%; margin-bottom:25px;}
+.ethics04_view .list_arrow ul li{height:33px;}
+.ethics04_view .btn_list{text-align:center;}
+.ethics04_view .open_table_3{width:100%;}
+.ethics04_view .open_table_3 td{height:33px;text-align:center;}
+.ethics04_view .open_table_3 .text_bold_2{font-weight:bold;}
+.ethics04_view .open_table_3 .text_margin{text-align:left; padding-left:20px;}
+.ethics04_view .open_table_3 .text_margin img{margin-right:5px;}
+.ethics04_view .open_table_3 .text_margin, .ethics04_view .open_table_3 .text_margin img{vertical-align:middle;}
+.ethics04_view .btn_noticeview{margin-top:25px;text-align:center;}
+
+/* 윤리경영 - 윤리경영신고 */
+.ethics05_content {background:url("/portal/images/inc/bg_ethics05.gif") no-repeat right 100px;}
+.ethics05_content .bg_top {display:inline-block;width:682px;height:66px;background:url("/portal/images/inc/ethics05_top.gif") no-repeat;}
+.ethics05_content .bg_center {display:inline-block;width:682px;height:66px;background:url("/portal/images/inc/ethics05_center.gif") no-repeat left bottom;}
+.ethics05_content .ethics05_top {}
+.ethics05_content .ethics05_top ul {padding:21px 0 0 0;}
+.ethics05_content .ethics05_top ul li {padding-bottom:26px;color:#646464;}
+.ethics05_content .ethics05_top ul li.last {padding-bottom:0px;}
+
+.ethics05_content .ethics05_center {}
+.ethics05_content .ethics05_center ul {padding:21px 0 0 0;}
+.ethics05_content .ethics05_center ul li {padding-bottom:26px;color:#646464;}
+.ethics05_content .ethics05_center ul li.last {padding-bottom:0px;}
+
+
+/* 윤리경영 - 윤리경영체계도 */
+.ethics06_content {}
+.ethics06_content .bg_top {display:inline-block;width:200px;height:19px;background:url("/portal/images/inc/ethics06_top.gif") no-repeat;}
+.ethics06_content .bg_center {margin-top:80px;padding-top:15px;display:inline-block;width:241px;height:18px;background:url("/portal/images/inc/ethics06_center.gif") no-repeat;}
+.ethics06_content .bg_bottom {margin-top:70px;display:inline-block;width:159px;height:18px;background:url("/portal/images/inc/ethics06_bottom.gif") no-repeat;}
+.ethics06_content .ethics06_top {padding-top:15px;}
+.ethics06_content .ethics06_center {}
+.ethics06_content .ethics06_bottom {padding-top:15px;}
+.ethics06_content .ethics06_bottom table {width:100%;border-top:1px solid #4599d0;}
+.ethics06_content .ethics06_bottom table th {border-bottom:1px solid #e6e6e6;border-right:1px solid #e6e6e6;background:#f8f8f8;color:#646464;font-weight:bold;height:45px;}
+.ethics06_content .ethics06_bottom table td {border-bottom:1px solid #e6e6e6;border-right:1px solid #e6e6e6;color:#646464;height:45px;text-align:center;}
+.ethics06_content .ethics06_bottom table .last {border-right:none;}
+.ethics06_content .ethics06_bottom table td.align_left {text-align:left;padding:8px 0 8px 10px;}
+
+/* 윤리경영 - 윤리경영선포문 */
+.ethics07_content {background:url("/portal/images/inc/img_jang.jpg") no-repeat 40px;height:489px;}
+
+/* 윤리경영 - 윤리규범 */
+.ethics08_content {}
+.ethics08_content .ethics08_top {overflow:hidden;padding-bottom:20px;background:url("/portal/images/inc/dot_big_line.gif") no-repeat left bottom;}
+.ethics08_content .ethics08_top h4 {float:left;}
+.ethics08_content .ethics08_top .ethics_search {float:right;}
+.ethics08_content .ethics08_top .ethics_search, .ethics08_content .ethics08_top .ethics_search img {vertical-align:middle;}
+
+.ethics08_contents {margin-top:25px;}
+.ethics08_contents .h4_ethics {background:url("/portal/images/inc/ico_arrow_blue.gif") no-repeat left center;color:#323232;padding-left:10px;font-size:14px;font-weight:bold;}
+.ethics08_contents .p_ethics08 {padding:10px 0 0 10px;color:#646464;}
+.ethics08_contents .p_ethics08 span {color:#646464;font-weight:bold;}
+.ethics08_contents .sp_date {color:#929292;display:block;padding-left:10px;}
+.ethics08_contents ul {padding-left:10px;padding-top:10px;}
+.ethics08_contents ul li {color:#646464;}
+.ethics08_contents ul li.li_title {color:#646464;font-weight:bold;}
+.ethics08_contents ul li.li_desc {padding-bottom:20px;padding-top:5px;}
+.ethics08_contents ul li span {color:#646464;font-weight:bold;}
+
+/* 윤리경영 - 추진성과 */
+.ethics09 {}
+.ethics09 .ethics09_top {overflow:hidden;padding-bottom:20px;background:url("/portal/images/inc/dot_big_line.gif") no-repeat left bottom;}
+.ethics09 .ethics09_top .h4_ethics {float:left;margin-top:5px;background:url("/portal/images/inc/ico_arrow_blue.gif") no-repeat left center;color:#323232;padding-left:10px;font-size:14px;font-weight:bold;}
+.ethics09 .ethics09_top .ethics_search {float:right;}
+.ethics09 .ethics09_top .ethics_search, .ethics09 .ethics09_top .ethics_search img {vertical-align:middle;}
+.ethics09_contents {}
+.ethics09_contents .ul_ethics09_1 {padding-top:5px;}
+.ethics09_contents .ul_ethics09_1 li {line-height:22px;}
+.ethics09_contents .ul_ethics09_2 {padding-top:5px;}
+.ethics09_contents .ul_ethics09_2 li {line-height:22px;}
+
+/* 윤리경영 - 추진성과 */
+.ethics10 {padding-left:285px;background:url("/portal/images/inc/img_ethics10.jpg") no-repeat left top;overflow:hidden;}
+.ethics10 .sp_ethics10 {display:block;width:405px;padding-bottom:20px;height:70px;border-bottom:1px solid #e1e1e1;background:url("/portal/images/inc/ethics10_top.gif") no-repeat right top;}
+.ethics10 ul {margin-top:20px;}
+.ethics10 ul li {padding-bottom:10px;color:#646464;}
+.ethics10 ul li.li_bold {font-weight:bold;color:#646464;}
+.ethics10 .sp_btn {display:inline-block;padding-top:30px;}
+.ethics10 .sp_btn a{ background:#0c79bc; color:#FFF;  border-radius:3px; padding:5px 15px 5px 15px; display:inline-block;}
+.ethics10 .sp_btn a:hover{ background:#0a3d5c;}
+
+
+
+
+
+
+
+/* 윤리경영 - 윤리경영신고 */
+.ethics_table{}
+.ethics_table .ethics_table_top{ width:100%; margin:13px 0 21px 0; overflow:hidden;}
+.ethics_table .ethics_table_top select{float:left; width:110px; height:23px;}
+.ethics_table .ethics_table_top form{float:right;}
+.ethics_table .ethics_table_top form input{margin-right:5px;}
+.ethics_table .ethics_table_1{clear:both;border-top:1px solid #4da1d8;width:100%;}
+.ethics_table .ethics_table_1 th{background-color:#f8f8f8;border-bottom:1px solid #dddddd;height:33px;text-align:center;}
+.ethics_table .ethics_table_1 td{border-bottom:1px solid #dddddd;height:45px;text-align:center;}
+.ethics_table .ethics_table_1 .text_left{text-align:left;padding-left:10px;}
+
+.ethics_view {}
+.ethics_view table {width:100%;border-top:1px solid #4da1d8;}
+.ethics_view table thead th {border-bottom:1px solid #cdcdcd;background:#f8f8f8;height:34px;}
+.ethics_view table tbody th {color:#838383;font-weight:bold;border-bottom:1px solid #e6e6e6;border-right:1px solid #e6e6e6;height:34px;}
+.ethics_view table tbody td {border-bottom:1px solid #e6e6e6;border-right:1px solid #e6e6e6;padding-left:10px;} 
+.ethics_view table tbody td.td_content {padding:10px;} 
+.ethics_view table tbody td.last {border-right:0;} 
+.ethics_view table tbody td,
+.ethics_view table tbody td img {vertical-align:middle;}
+.ethics_view .ethics_btn {text-align:right;padding-top:30px;padding-right:10px;}
+
+.ethics_write {}
+.ethics_write table {width:100%;border-top:1px solid #4da1d8;}
+.ethics_write table tbody th {background:#f8f8f8;color:#838383;font-weight:bold;border-bottom:1px solid #e6e6e6;border-right:1px solid #e6e6e6;height:34px;}
+.ethics_write table tbody td {border-bottom:1px solid #e6e6e6;border-right:1px solid #e6e6e6;padding-left:10px;} 
+.ethics_write table tbody td.td_file {height:53px;}
+.ethics_write table tbody td.td_content {padding:10px;}
+.ethics_write table tbody td.last {border-right:0;} 
+.ethics_write table tbody td textarea {width:728px;height:285px;border:1px solid #e6e6e6;resize:none;}
+.ethics_write table tbody td label {padding-right:20px;}
+.ethics_write .ethics_btn {text-align:center;padding-top:30px;}
+
+
+/* 윤리경영 - 윤리경영 활동방 */
+.ethics_photo{}
+.ethics_photo .together_top{ width:100%; margin:13px 0 21px 0; overflow:hidden;}
+.ethics_photo .together_top select{float:left; width:110px; height:23px;}
+.ethics_photo .together_top form{float:right;}
+.ethics_photo .together_top form input{margin-right:5px;}
+
+.ethics_photo .photo_text {}
+.ethics_photo .photo_text .list_img_ul {margin-bottom:10px;overflow:hidden;}
+.ethics_photo .photo_text .list_img_ul li{position:relative;float:left;display:inline-block; margin-right:8px;}
+.ethics_photo .photo_text .list_img_ul li.last{margin-right:0px;}
+.ethics_photo .photo_text .list_img_ul li img {width:178px;height:165px;}
+.ethics_photo .photo_text .list_img_ul li .text_black_bg{position:absolute; left:6px; top:126px; background-color:#000; width:167px; height:31px;text-align:center; line-height:31px; opacity:0.6; /*filter:Alpha(opacity=60);*/}
+.ethics_photo .photo_text .list_img_ul li .text_black_bg a{color:#fff; font-weight:bold;}
+
+/* 행정,민원업무 - 국민신문고 - 나의민원조회 - 0910수정 */
+.complaint_top {}
+.complaint_top .h4_complaint {margin-top:30px;background:url("/portal/images/inc/ico_arrow_blue.gif") no-repeat left center;color:#323232;padding-left:10px;font-size:14px;font-weight:bold;}
+.complaint_top .complaint_system {padding:10px 0 0 20px;border:1px solid #dfdfdf;background:#f9f9f9 url("/portal/images/inc/img_complaint.jpg") no-repeat right center;height:66px;}
+.complaint_top ul li {color:#646464;}
+.complaint_top ul li .sp_sys_call {color:#646464;font-weight:bold;}
+.complaint_top ul li .sp_callnum {background:url("/portal/images/inc/ico_call.gif") no-repeat left center;color:#f75700;font-weight:bold;padding-left:15px;}
+
+.complaint_member {}
+.complaint_member .h5_complaint {margin-top:15px;background:url("/portal/images/inc/ico_grayDot1.gif") no-repeat left center;color:#646464;font-weight:bold;padding-left:10px;margin-left:15px;}
+.complaint_member .member_login {border-bottom:1px solid #e6e6e6;padding-bottom:34px;margin-left:15px;padding-top:12px;}
+.complaint_member .member_login .p_mem_top {border-top:1px solid #4da1d8;border-bottom:1px solid #e6e6e6;background:#f8f8f8;color:#646464;text-align:center;padding:10px 0;}
+.complaint_member .member_login .login_form {padding:25px 0 0px 0;width:477px;height:91px;margin:0 auto;overflow:hidden;}
+.complaint_member .member_login .login_form ul {float:left;}
+.complaint_member .member_login .login_form ul li {padding-top:4px;}
+.complaint_member .member_login .login_form ul li.first {padding-top:0px;}
+.complaint_member .member_login .login_form ul li,
+.complaint_member .member_login .login_form ul li img {vertical-align:middle;}
+.complaint_member .member_login .login_form ul li label {display:inline-block;width:88px;}
+.complaint_member .member_login .login_form .sp_login {float:right;padding-top:2px;}
+.complaint_member .member_login .login_form .p_mem_btn {clear:both;text-align:center;padding-top:10px;height:22px;}
+
+.complaint_not_member {margin-left:15px;padding-top:50px;}
+.complaint_not_member .ntab01 {overflow:hidden;margin-top:15px;}
+.complaint_not_member .ntab01 li {float:left;padding-right:1px;border-top:1px solid #4da1d8;}
+.complaint_not_member .ntab01 li a {white-space:nowrap;display:block;font-size:14px;padding-left:14px;background:url("/portal/images/inc/bg_login_tab_off.gif") no-repeat 0 0;color:#333333;font-weight:bold;}
+.complaint_not_member .ntab01 li span{display:block;height:27px;padding:7px 53px 0px 40px;background:url("/portal/images/inc/bg_login_tab_off.gif") no-repeat 100% 0;}
+.complaint_not_member .ntab01 li a.on {background:url("/portal/images/inc/bg_login_tab_on.gif") no-repeat 0 0;}
+.complaint_not_member .ntab01 li a.on span{background:url("/portal/images/inc/bg_login_tab_on.gif") no-repeat 100% 0;color:#ffffff;}
+
+.complaint_not_member .h5_complaint {margin-top:15px;background:url("/portal/images/inc/ico_grayDot1.gif") no-repeat left center;color:#646464;font-weight:bold;padding-left:10px;}
+.complaint_not_member .not_member_accredit .accredit_form {padding:46px 0 50px 0;width:477px;height:61px;margin:0 auto;overflow:hidden;}
+.complaint_not_member .not_member_accredit .accredit_form ul {float:left;}
+.complaint_not_member .not_member_accredit .accredit_form ul li {padding-top:4px;}
+.complaint_not_member .not_member_accredit .accredit_form ul li.first {padding-top:0px;}
+.complaint_not_member .not_member_accredit .accredit_form ul li,
+.complaint_not_member .not_member_accredit .accredit_form ul li img {vertical-align:middle;}
+.complaint_not_member .not_member_accredit .accredit_form ul li label {display:inline-block;width:115px;}
+.complaint_not_member .not_member_accredit .accredit_form .sp_accredit {float:right;padding-top:2px;}
+.complaint_not_member .not_member_accredit .accredit_form .a_accredit {display:block;text-align:center;}
+
+.complaint_not_member .not_member_accredit .accredit_desc {padding:12px 0 15px 17px;height:93px;border-top:1px solid #e6e6e6;border-bottom:1px solid #e6e6e6;background:#f8f8f8;}
+.complaint_not_member .not_member_accredit .accredit_desc ul {}
+.complaint_not_member .not_member_accredit .accredit_desc ul li {color:#464646;line-height:20px;}
+.complaint_not_member .not_member_accredit .accredit_desc ul li,
+.complaint_not_member .not_member_accredit .accredit_desc ul li span {vertical-align:middle;}
+.complaint_not_member .not_member_accredit .accredit_desc p {color:#f76719;font-size:11px;padding:5px 0 0 15px;}
+
+.complaint_search {margin-top:10px;}
+.complaint_search table {width:100%;border-top:1px solid #4ea1d8;border-bottom:1px solid #e6e6e6;}
+.complaint_search table th {background:#f8f8f8;border-right:1px solid #e6e6e6;color:#646464;font-weight:bold;}
+.complaint_search table td {height:23px;padding-left:10px;padding-bottom:5px;}
+.complaint_search table td select {height:23px;}
+.complaint_search table td span {color:#2597e0;font-weight:bold;}
+.complaint_search table td.align_center {text-align:center;}
+
+.complaint_search .sp_info_time {font-size:11px;color:#f76719;padding:5px 0 0 5px;}
+.complaint_search .sp_info_time,
+.complaint_search .sp_info_time img {vertical-align:middle;}
+
+.complaint_list {padding-top:25px;}
+.complaint_list .table_top {overflow:hidden;}
+.complaint_list .table_top .p_ico {float:left;}
+.complaint_list .table_top .p_ico span {display:inline-block;height:16px;color:#646464;font-weight:bold;}
+.complaint_list .table_top .sp_total {float:right;color:#646464;font-weight:bold;}
+
+.complaint_list table {width:100%;border-top:1px solid #4da1d8;margin-top:5px;}
+.complaint_list table thead th {height:33px;background:#f8f8f8;border-bottom:1px solid #dddddd;color:#646464;font-weight:bold;}
+.complaint_list table tbody td {height:45px;}
+.complaint_list table tbody td.no_data {border-bottom:1px solid #dddddd;text-align:center;}
+
+.complaint_write {}
+.complaint_write .top_help {text-align:right;} 
+.complaint_write .top_help, 
+.complaint_write .top_help img {vertical-align:middle;}
+.complaint_write table {width:100%;border-top:1px solid #4da1d8;margin-top:5px;}
+.complaint_write table th {height:26px;background:#f8f8f8;border-right:1px solid #e6e6e6;border-bottom:1px solid #e6e6e6;vertical-align:top;padding-top:8px;}
+.complaint_write table td {border-bottom:1px solid #e6e6e6;padding:5px 0 5px 7px;}
+.complaint_write table td p.p_orange {color:#f75700;font-size:11px;letter-spacing:-0.5px;}
+.complaint_write table td p.p_orange a {color:#f75700;text-decoration:underline;}
+.complaint_write table td.td_title {color:#646464;font-weight:bold;}
+.complaint_write table td.no_bottom {border-bottom:0px;}
+.complaint_write table td, .complaint_write table td input, .complaint_write table td img {vertical-align:middle;}
+
+.complaint_write1 {}
+.complaint_write1 .h4_complaint {margin-top:30px;background:url("/portal/images/inc/ico_arrow_blue.gif") no-repeat left center;color:#323232;padding-left:10px;font-size:14px;font-weight:bold;}
+.complaint_write1 table {width:100%;border-top:1px solid #4da1d8;margin-top:5px;}
+.complaint_write1 table th {height:48px;background:#f8f8f8;border-bottom:1px solid #e6e6e6;color:#646464;}
+.complaint_write1 table td {border-bottom:1px solid #e6e6e6;padding:8px 0 8px 0px;}
+
+
+.complaint_write2 {}
+.complaint_write2 .h4_complaint {margin-top:30px;background:url("/portal/images/inc/ico_arrow_blue.gif") no-repeat left center;color:#323232;padding-left:10px;font-size:14px;font-weight:bold;}
+.complaint_write2 table {width:100%;border-top:1px solid #4da1d8;margin-top:5px;}
+.complaint_write2 table th {height:48px;background:#f8f8f8;border-bottom:1px solid #e6e6e6;border-right:1px solid #e6e6e6;color:#646464;}
+.complaint_write2 table td {border-bottom:1px solid #e6e6e6;padding:0 0 0 8px;}
+.complaint_write2 table td.td_content {padding:12px 0 12px 8px;}
+.complaint_write2 table td .text_area_content {width:616px;height:336px;resize:none;}
+.complaint_write2 table td, .complaint_write2 table td input, .complaint_write2 table td img {vertical-align:middle;}
+
+.complaint_share {border:3px solid #dedede;padding:11px 0 11px 20px;margin-top:25px;}
+.complaint_share ul {}
+.complaint_share ul li {color:#333333;font-weight:bold;}
+.complaint_share ul li .p_orange {color:#f75700;font-size:12px;letter-spacing:-0.5px;border-bottom:1px solid #e6e6e6;padding:12px 0;}
+.complaint_share ul li .p_gray {color:#646464;font-size:12px;letter-spacing:-0.5px;padding:12px 0;}
+
+.sp_accept {display:block;text-align:center;padding-top:30px;}
+
+
+
+
+/* 이용안내 - 이용안내 */
+.operation_guide01 {/*padding-top:410px;background:url("/portal/images/inc/operation_guide.gif") no-repeat;*/}
+.operation_guide01 .h4_guide {margin-top:30px;background:url("/portal/images/inc/ico_arrow_blue.gif") no-repeat left center;color:#323232;padding-left:10px;font-size:14px;font-weight:bold;}
+.operation_guide01 .ul_guide01 {padding-left:20px;}
+.operation_guide01 .sp_subtitle {display:block;padding-left:20px;padding-bottom:5px;}
+
+/* 이용안내 - 개인정보처리방침 */
+.operation_guide02 {}
+.operation_guide02 .guide_top {padding:17px 0px 19px 17px;border:1px solid #dfdfdf;background:#f9f9f9;color:#646464;line-height:20px;}
+.operation_guide02 .sp_guide02 {display:block;padding:16px 0 0 16px;color:#017ac4;}
+.operation_guide02 .ul_guide01 {padding-left:20px;}
+.operation_guide02 .sp_subtitle {display:block;padding-left:20px;padding-bottom:5px;}
+.operation_guide02 .sp_subtitle02 {display:block;padding-left:34px;padding-bottom:5px;text-indent:-14px;}
+.operation_guide02 .sp_subtitle03 {display:block;padding:10px 0 10px 34px;text-indent:-14px;}
+
+/* 이용안내-이메일 */
+.operation_guide03{width:532px;height:225px;padding:35px 0 0 211px; border:1px solid #dfdfdf; background:#f9f9f9 url(/portal/images/contents/bg_operation.gif) no-repeat 37px 34px;line-height:18px;}
+.operation_guide03 p{padding-bottom:18px;color:#017ac4;}
+.operation_guide03 p span{display:block;}
+.operation_guide03 ul{width:500px;}
+.operation_guide03 li{padding:0 0 5px 16px; text-indent:-16px;}
+
+
+
+
+
+
+
+
+
+
+
+
+/* iCON */
+.ico_complate {display:inline-block;background:url("/portal/images/inc/bg_complate.gif") no-repeat;width:55px;height:20px;}
+.ico_ing {display:inline-block;background:url("/portal/images/inc/bg_ing.gif") no-repeat;width:55px;height:20px;}
+.ico_gray_arrow1 {display:inline-block;background:url("/portal/images/inc/gray_circle_arrow.gif") no-repeat left top;width:15px;height:15px;}
+.ico_lock {background:url("/portal/images/inc/ico_lock.gif") no-repeat left center;padding-left:18px;}
+.ico_unlock {background:url("/portal/images/inc/ico_unlock.gif") no-repeat left center;padding-left:18px;}
+.ico_select1 {background:url("/portal/images/inc/ethics08_search.gif") no-repeat left center;padding-left:67px;}
+.ico_select2 {background:url("/portal/images/inc/ethics09_search.gif") no-repeat left center;padding-left:95px;}
+.ico_blue {background:url("/portal/images/inc/ico_blue.gif") no-repeat left center;padding-left:10px;color:#5593bf;font-weight:bold;}
+
+
+
+
+/* input size */
+.sel63 {border:1px solid #cccccc;width:63px;height:23px;}
+.sel107 {border:1px solid #cccccc;width:107px;height:23px;}
+.sel163 {border:1px solid #cccccc;width:163px;height:23px;}
+
+.inp48 {border:1px solid #cccccc;width:48px;height:18px;padding-top:5px;}
+.inp55 {border:1px solid #cccccc;width:55px;height:18px;padding-top:5px;}
+.inp79 {border:1px solid #cccccc;width:79px;height:18px;padding-top:5px;}
+.inp86 {border:1px solid #cccccc;width:86px;height:18px;padding-top:5px;}
+.inp98 {border:1px solid #cccccc;width:98px;height:18px;padding-top:5px;}
+.inp117 {border:1px solid #cccccc;width:117px;height:18px;padding-top:5px;}
+.inp127 {border:1px solid #cccccc;width:127px;height:18px;padding-top:5px;}
+.inp129 {border:1px solid #cccccc;width:129px;height:18px;padding-top:5px;}
+.inp143 {border:1px solid #cccccc;width:143px;height:18px;padding-top:5px;}
+.inp151 {border:1px solid #cccccc;width:151px;height:18px;padding-top:5px;}
+.inp167 {border:1px solid #cccccc;width:167px;height:18px;padding-top:5px;}
+.inp230 {border:1px solid #cccccc;width:230px;height:18px;padding-top:5px;}
+.inp286 {border:1px solid #cccccc;width:286px;height:18px;padding-top:5px;}
+.inp290 {border:1px solid #cccccc;width:290px;height:18px;padding-top:5px;}
+.inp404 {border:1px solid #cccccc;width:404px;height:18px;padding-top:5px;}
+.inp438 {border:1px solid #cccccc;width:438px;height:18px;padding-top:5px;}
+.inp534 {border:1px solid #cccccc;width:534px;height:18px;padding-top:5px;}
+.inp609 {border:1px solid #cccccc;width:609px;height:18px;padding-top:5px;}
+.inp616 {border:1px solid #cccccc;width:616px;height:18px;padding-top:5px;}

@@ -1,0 +1,555 @@
+@charset "utf-8";
+
+/* ICON */
+.ico_grayDot {background:url("/portal/images/inc/ico_grayDot1.gif") no-repeat left center;padding-left:4px;}
+
+/* 안전탐방 - 안전계획 - 옷입는법 */
+.safe_plan {}
+.safe_plan .h4_safe {background:url("/portal/images/inc/ico_arrow_green.gif") no-repeat left center;color:#323232;padding-left:10px;font-size:14px;font-weight:bold;}
+.safe_plan ul {padding-top:18px;}
+.safe_plan ul li {}
+.safe_plan ul li.li_mTitle {padding-left:10px;color:#333333;font-weight:bold;}
+.safe_plan ul li.li_mDesc {padding-left:20px;padding-top:20px;}
+.safe_plan ul li.li_mDesc img {border:1px solid #dedede;}
+.safe_plan ul li.li_subTitle {padding-left:22px;padding-top:20px;padding-bottom:12px;color:#646464;font-weight:bold;}
+.safe_plan ul li.li_subDesc {padding-left:30px;color:#646464;line-height:20px;}
+.safe_plan .safe_plan_table {margin-top:30px;}
+.safe_plan .safe_plan_table p {padding-left:10px;color:#333333;font-weight:bold;}
+.safe_plan .safe_plan_table table {margin-top:15px;margin-left:10px;width:731px;border-top:1px solid #54be78;}
+.safe_plan .safe_plan_table table th {height:47px;background:#f8f8f8;border-bottom:1px solid #dddddd;border-right:1px solid #dddddd;}
+.safe_plan .safe_plan_table table th.last {border-right:none;}
+.safe_plan .safe_plan_table table td {height:77px;border-bottom:1px solid #dddddd;border-right:1px solid #dddddd;text-align:center;}
+.safe_plan .safe_plan_table table td.last {border-right:none;}
+
+/* 장비꾸리기 */
+.equipment_raise {}
+.equipment_raise .h4_equipment {background:url("/portal/images/inc/ico_arrow_green.gif") no-repeat left center;color:#323232;padding-left:10px;font-size:14px;font-weight:bold;}
+.equipment_raise ul {padding-top:18px;}
+.equipment_raise ul li {}
+.equipment_raise ul li.li_mTitle {padding-left:10px;color:#333333;font-weight:bold;}
+.equipment_raise ul li.li_mDesc {padding-left:20px;padding-top:20px;overflow:hidden;}
+.equipment_raise ul li.li_mDesc img {border:1px solid #dedede;}
+.equipment_raise ul li.li_mDesc ul {float:left;padding-top:0px;padding-right:70px;}
+.equipment_raise ul li.li_mDesc ul li {line-height:20px;}
+.equipment_raise ul li.li_subTitle {padding-left:22px;padding-top:20px;padding-bottom:12px;color:#646464;font-weight:bold;}
+.equipment_raise ul li.li_subDesc {padding-left:30px;color:#646464;line-height:20px;}
+.equipment_raise .equipment_raise_desc {margin-top:30px;}
+.equipment_raise .equipment_raise_desc p {padding-left:10px;color:#333333;font-weight:bold;}
+.equipment_raise .equipment_raise_desc ul {padding-left:22px;padding-top:15px;}
+.equipment_raise .equipment_raise_desc ul li {line-height:24px;}
+.equipment_raise .equipment_raise_desc ul li.none {line-height:18px;}
+.equipment_raise .clothes_raise {padding-left:22px;padding-top:20px;}
+.equipment_raise .clothes_raise img {border:1px solid #dedede;}
+
+/* 코스확인 */
+.check_course {}
+.check_course .h4_check {background:url("/portal/images/inc/ico_arrow_green.gif") no-repeat left center;color:#323232;padding-left:10px;font-size:14px;font-weight:bold;}
+.check_course dl {padding-top:20px;margin-left:15px;padding-bottom:30px;border-bottom:1px solid #d9d9d9;}
+.check_course dl.last {border-bottom:none;padding-bottom:0;}/*0906수정*/
+.check_course dl dt {color:#333333;font-weight:bold;padding-bottom:14px;}
+.check_course dl dd {line-height:20px;}
+
+/* 기상확인 - 기상현황 영상 */
+.weather_confirm {}
+.weather_confirm .ntab01 {overflow:hidden;width:100%;}
+.weather_confirm .ntab01 li {float:left;}
+.weather_confirm .ntab01 li a {display:inline-block;font-weight:bold;font-size:12px;width:240px;color:#fff;text-align:center;padding-top:10px;padding-bottom:9px;background:url("/portal/images/inc/tab_off2.gif") no-repeat left center;}
+.weather_confirm .ntab01 li a.on {display:inline-block;width:250px;text-align:center;color:#fff;font-weight:bold;background:url("/portal/images/inc/tab_on2.gif") no-repeat left center;text-decoration:underline}
+/*.weather_confirm ul li a:hover {background:url("/portal/images/inc/tab_on2.gif") no-repeat left center;width:376px;}*/
+.weather_confirm ul li.last {background:none;}
+.weather_confirm .weather_movie {position:relative;}
+.weather_confirm .weather_movie .pop_weather_movie1 {position:absolute;right:5px;bottom:125px;background:url("/portal/images/inc/bg_weather_info.png") no-repeat;width:195px;height:150px;}
+.weather_confirm .weather_movie .pop_weather_movie1 a {position:absolute;left:80px;top:45px;}
+.weather_confirm .weather_movie .pop_weather_movie1 .sp_images {display:inline-block;padding-top:4px;padding-left:4px;}
+.weather_confirm .weather_movie .pop_weather_movie1 .sp_pop_title {color:#fff;font-weight:bold;font-size:14px;display:block;text-align:center;padding-right:5px;padding-top:5px;}
+.weather_confirm .weather_movie .pop_weather_movie2 {position:absolute;left:80px;bottom:125px;background:url("/portal/images/inc/bg_weather_info.png") no-repeat;width:195px;height:150px;}
+.weather_confirm .weather_movie .pop_weather_movie2 a {position:absolute;left:80px;top:45px;}
+.weather_confirm .weather_movie .pop_weather_movie2 .sp_images {display:inline-block;padding-top:4px;padding-left:4px;}
+.weather_confirm .weather_movie .pop_weather_movie2 .sp_pop_title {color:#fff;font-weight:bold;font-size:14px;display:block;text-align:center;padding-right:5px;padding-top:5px;}
+.weather_confirm .weather_movie .pop_weather_movie3 {position:absolute;left:80px;top:135px;background:url("/portal/images/inc/bg_weather_info.png") no-repeat;width:195px;height:150px;}
+.weather_confirm .weather_movie .pop_weather_movie3 a {position:absolute;left:80px;top:45px;}
+.weather_confirm .weather_movie .pop_weather_movie3 .sp_images {display:inline-block;padding-top:4px;padding-left:4px;}
+.weather_confirm .weather_movie .pop_weather_movie3 .sp_pop_title {color:#fff;font-weight:bold;font-size:14px;display:block;text-align:center;padding-right:5px;padding-top:5px;}
+.weather_confirm .weather_movie .pop_weather_movie4 {position:absolute;right:5px;top:25px;background:url("/portal/images/inc/bg_weather_info.png") no-repeat;width:195px;height:150px;}
+.weather_confirm .weather_movie .pop_weather_movie4 a {position:absolute;left:80px;top:45px;}
+.weather_confirm .weather_movie .pop_weather_movie4 .sp_images {display:inline-block;padding-top:4px;padding-left:4px;}
+.weather_confirm .weather_movie .pop_weather_movie4 .sp_pop_title {color:#fff;font-weight:bold;font-size:14px;display:block;text-align:center;padding-right:5px;padding-top:5px;}
+.weather_confirm .weather_movie .pop_weather_movie5 {position:absolute;right:5px;top:265px;background:url("/portal/images/inc/bg_weather_info.png") no-repeat;width:195px;height:150px;}
+.weather_confirm .weather_movie .pop_weather_movie5 a {position:absolute;left:80px;top:45px;}
+.weather_confirm .weather_movie .pop_weather_movie5 .sp_images {display:inline-block;padding-top:4px;padding-left:4px;}
+.weather_confirm .weather_movie .pop_weather_movie5 .sp_pop_title {color:#fff;font-weight:bold;font-size:14px;display:block;text-align:center;padding-right:5px;padding-top:5px;}
+.weather_confirm .weather_movie .pop_weather_movie6 {position:absolute;left:80px;top:154px;background:url("/portal/images/inc/bg_weather_info.png") no-repeat;width:195px;height:150px;}
+.weather_confirm .weather_movie .pop_weather_movie6 a {position:absolute;left:80px;top:45px;}
+.weather_confirm .weather_movie .pop_weather_movie6 .sp_images {display:inline-block;padding-top:4px;padding-left:4px;}
+.weather_confirm .weather_movie .pop_weather_movie6 .sp_pop_title {color:#fff;font-weight:bold;font-size:14px;display:block;text-align:center;padding-right:5px;padding-top:5px;}
+
+/* cctv */
+.weather_movie {position:relative;}
+.weather_movie img{position:absolute;z-index:99}
+
+
+.weather_movie  .cctv_inf{position:absolute;z-index:99999999;top:5px;left:5px;background:#63787f;border-left:#e2be30 10px solid;padding:10px; color:#fff} 
+.weather_movie .cctv_inf  ul{padding-left:20px}
+.weather_movie  .cctv_inf  li{list-style:disc; padding: 5px 0px 5px 0px}
+
+.weather_movie .off{background:url("/portal/images/contents/bg_cctv_off.png") no-repeat #f2f2f2 !important;border:#ccc 1px solid;color:#666}
+.weather_movie .cctv{position:absolute;z-index:99999;border:#00b6de 1px solid; background-size:80%;background:url("/portal/images/contents/bg_cctv.png") no-repeat #fff; padding:10px 20px 10px 40px;;  border-radius:30px }
+.weather_movie .cctv:hover{font-weight:bold;border:#00b6de 2px solid;box-shadow:2px 2px 3px #ccc;transform:scale(1); -webkit-transition :all 0.8s ease; transition:all 0.8s ease}
+
+
+
+.weather_movie .cctv_01{top:110px;left:110px;}
+.weather_movie .cctv_02{top:290px;left:430px;}
+.weather_movie .cctv_03{top:400px;left:320px;}
+.weather_movie .cctv_04{top:450px;left:190px;}
+.weather_movie .cctv_05{top:495px;left:190px;}
+.weather_movie .cctv_06{top:35px;right:90px;}
+.weather_movie .cctv_07{top:80px;right:90px;}
+.weather_movie .cctv_08{top:125px;right:100px;}
+.weather_movie .cctv_09{top:220px;right:100px;}
+.weather_movie .cctv_10{top:335px;right:80px;}
+.weather_movie .cctv_11{top:500px;right:120px;}
+.weather_movie .cctv_12{top:580px;left:40px;}
+.weather_movie .cctv_14{top:155px;left:110px;}
+.weather_movie .cctv_15{top:537px;left:60px;}
+.weather_movie .cctv_16{top:300px;left:90px;}
+.weather_movie .cctv_17{;top:170px;left:380px;}
+.weather_movie .cctv_21{top:220px;left:90px;}
+.weather_movie .cctv_22{top:400px;left:50px;}
+
+
+
+/* 기상확인 - 기상정보 */
+.weather_confirm .weather_info {/*padding-bottom:50px;*/}/*0906수정*/
+.weather_confirm .weather_info .park_list {}
+.weather_confirm .weather_info .park_box {width:731px;}
+.weather_confirm .weather_info .h4_weather {margin-top:20px;background:url("/portal/images/inc/ico_arrow_green.gif") no-repeat left center;color:#323232;padding-left:10px;font-size:14px;font-weight:bold;}
+.weather_confirm .weather_info .short_table {margin-top:14px;width:100%;border-top:1px solid #54be78;}
+.weather_confirm .weather_info .short_table th {height:47px;background:#f8f8f8;border-bottom:1px solid #dddddd;border-right:1px solid #dddddd;}
+.weather_confirm .weather_info .short_table td {height:32px;text-align:center;border-bottom:1px solid #dddddd;border-right:1px solid #dddddd;}
+.weather_confirm .weather_info .short_table td.td_weather {height:151px;}
+.weather_confirm .weather_info .short_table td span {display:block;}
+.weather_confirm .weather_info .short_table .last {border-right:none;}
+.weather_confirm .weather_info .week_table {margin-top:14px;width:100%;border-top:1px solid #54be78;}
+.weather_confirm .weather_info .week_table th {height:47px;background:#f8f8f8;border-bottom:1px solid #dddddd;border-right:1px solid #dddddd;}
+.weather_confirm .weather_info .week_table td {height:40px;text-align:center;border-bottom:1px solid #dddddd;border-right:1px solid #dddddd;}
+.weather_confirm .weather_info .week_table td.td_weather {height:72px;}
+.weather_confirm .weather_info .week_table td span.sp_weather_text {display:block;}
+.weather_confirm .weather_info .week_table td span.sp_subDesc {color:#c8c8c8;font-size:11px;}
+.weather_confirm .weather_info .week_table td span.sp_moning {color:#017ac7;font-weight:bold;}
+.weather_confirm .weather_info .week_table td span.sp_afternoon {color:#f75701;font-weight:bold;}
+.weather_confirm .weather_info .week_table .last {border-right:none;}
+.weather_confirm .weather_info .weather_top {overflow:hidden;width:100%;}
+.weather_confirm .weather_info .weather_top .sp_wh {float:right;}
+.weather_confirm .weather_info .weather_top .sp_wh,
+.weather_confirm .weather_info .weather_top .sp_wh img {vertical-align:middle;}
+		
+/* 금지행위 - 금지행위 및 벌칙 */
+.limit_tab01 {margin-bottom:20px;}
+.limit_tab01 ul {overflow:hidden;}
+.limit_tab01 ul li {float:left;margin-bottom:0px;}
+.limit_tab01 ul li a {white-space:nowrap;display:block;font-size:12px;padding-left:23px;background:url("/portal/images/inc/bg_tablimitnew1_off.gif") no-repeat 0 0;/* border-radius:10px 10px 0 0; border-right:1px solid #8f8f8f;background:#acacac;*/color:#ffffff;font-weight:bold;}
+.limit_tab01 ul li span{display:block;height:27px;padding:8px 28px 0 0;margin-bottom:10px;background:url("/portal/images/inc/bg_tablimitnew2_off.gif") no-repeat 100% 0;}
+/* .limitnew_tab01 ul li a.on {background:#6f6f6f;color:#ffffff;} */
+.limit_tab01 ul li a.on {background:url("/portal/images/inc/bg_tablimitnew1_on.gif") no-repeat 0 0;text-decoration:underline}
+.limit_tab01 ul li a.on span{background:url("/portal/images/inc/bg_tablimitnew2_on.gif") no-repeat 100% 0;}
+
+.limit_000 {BORDER-RIGHT: #3fa53a 1px solid; BORDER-TOP: #3fa53a 1px solid; BORDER-LEFT: #3fa53a 1px solid; BORDER-BOTTOM: #3fa53a 1px solid;padding: 20px; font-weight:bold; color:#269320}
+
+
+/* 금지행위 - 재난시 행동요령 */
+.limit_tab033 {margin-bottom:20px;}
+.limit_tab033 ul {overflow:hidden;}
+.limit_tab033 ul li {float:left;margin-bottom:0px;}
+.limit_tab033 ul li a {white-space:nowrap;display:block;font-size:12px;padding-left:25px;background:url("/portal/images/inc/bg_tablimitnew1_off.gif") no-repeat 0 0;/* border-radius:10px 10px 0 0; border-right:1px solid #8f8f8f;background:#acacac;*/color:#ffffff;font-weight:bold;}
+.limit_tab033 ul li span{display:block;height:27px;padding:8px 25px 0px 0;margin-bottom:10px;background:url("/portal/images/inc/bg_tablimitnew2_off.gif") no-repeat 100% 0;}
+.limit_tab033 ul li:first-child span {padding-right:24px}
+/* .limitnew_tab01 ul li a.on {background:#6f6f6f;color:#ffffff;} */
+.limit_tab033 ul li a.on {background:url("/portal/images/inc/bg_tablimitnew1_on.gif") no-repeat 0 0;text-decoration:underline}
+.limit_tab033 ul li a.on span{background:url("/portal/images/inc/bg_tablimitnew2_on.gif") no-repeat 100% 0;}
+
+/* 금지행위 - 입산시간 지정제 */
+.limit_tab044 {margin-bottom:20px;}
+.limit_tab044 ul {overflow:hidden;}
+.limit_tab044 ul li {float:left;margin-bottom:0px;}
+.limit_tab044 ul li a {white-space:nowrap;display:block;font-size:12px;padding-left:34px;background:url("/portal/images/inc/bg_tablimitnew1_off.gif") no-repeat 0 0;color:#ffffff;font-weight:bold;}
+.limit_tab044 ul li span{display:block;height:27px;padding:8px 34px 0 0;margin-bottom:10px;background:url("/portal/images/inc/bg_tablimitnew2_off.gif") no-repeat 100% 0;}
+.limit_tab044 ul li a.on {background:url("/portal/images/inc/bg_tablimitnew1_on.gif") no-repeat 0 0;text-decoration:underline}
+.limit_tab044 ul li a.on span{background:url("/portal/images/inc/bg_tablimitnew2_on.gif") no-repeat 100% 0;}
+
+.ntab01_content {padding-top:10px;position:relative}
+.ntab01_content .map{border:#ccc 1px solid; right:0px;padding:5px 10px;position: absolute; top:-20px; color:#fff;background:#000; border-radius:3px;  font-size:11px;}
+.ntab01_content .map:hover{background:#333;}
+.ntab01_content .p_desc {padding-top:10px;padding-left:10px;}
+.ntab01_content .h4_tab_title {background:url("/portal/images/inc/ico_arrow_green.gif") no-repeat left center;color:#323232;padding-left:10px;font-size:14px;font-weight:bold;}
+.ntab01_content .ntab01_notice {margin-top:11px;margin-left:9px;background:url("/portal/images/inc/bg_notice.gif") no-repeat left center;padding:27px 0px 30px 140px;}
+.ntab01_content .ntab01_desc {margin-left:9px;}
+.ntab01_content .ntab01_desc li {margin-bottom:0px;}
+.ntab01_content .ntab01_desc li a {white-space:nowrap;display:inline-block;font-size:12px;padding-left:0px;background:url("") no-repeat 0 0;color:#333;font-weight:normal;}
+.ntab01_content .ntab01_desc .h5_subTitle {margin-top:30px;margin-bottom:5px;background:url("/portal/images/inc/ico_grayDot1.gif") no-repeat left center;padding-left:10px;color:#333333;font-weight:bold;}
+.ntab01_content .ntab01_desc p {line-height:18px;padding-left:10px;}
+.ntab01_content .ntab01_desc .sp_law {display:block;padding-left:10px;padding-bottom:5px;color:#339933;font-weight:bold;}
+.ntab01_content .ntab01_desc .sp_noticer {display:block;text-align:center;color:#666666;margin-top:40px;font-weight:bold;}
+.ntab01_content .ntab01_desc .sp_link {display:block;text-align:center;color:#666666;font-weight:bold;}
+.ntab01_content .ntab01_desc .sp_money {color:#f75701;}
+.ntab01_content .ntab01_desc .ul_desc {padding-left:10px;}
+.ntab01_content .ntab01_desc .ul_desc li {width:100%;line-height:18px;padding-bottom:5px;color:#646464;}
+.ntab01_content .ntab01_desc .limit_table {margin-top:10px;}
+.ntab01_content .ntab01_desc .limit_table table {width:100%;border-top:1px solid #54be78;}
+.ntab01_content .ntab01_desc .limit_table table th {height:31px;background:#f8f8f8;border-right:1px solid #dddddd;border-bottom:1px solid #dddddd;}
+.ntab01_content .ntab01_desc .limit_table table td {text-align:center;border-right:1px solid #dddddd;border-bottom:1px solid #dddddd;}
+.ntab01_content .ntab01_desc .limit_table table td.align_left {text-align:left;padding-left:10px;height:68px;}
+.ntab01_content .ntab01_desc .limit_table table .last {border-right:none;}
+.ntab01_content .ntab01_desc .limit_table1 {margin-top:10px;}
+.ntab01_content .ntab01_desc .limit_table1 table {width:100%;border-top:1px solid #54be78;}
+.ntab01_content .ntab01_desc .limit_table1 table th {height:31px;background:#f8f8f8;border-right:1px solid #dddddd;border-bottom:1px solid #dddddd;}
+.ntab01_content .ntab01_desc .limit_table1 table td {height:28px;padding:5px 17px 5px 17px;text-align:center;border-right:1px solid #dddddd;border-bottom:1px solid #dddddd;}
+.ntab01_content .ntab01_desc .limit_table1 table td span {color:#f75701;font-weight:normal;padding-left:0px;}
+.ntab01_content .ntab01_desc .limit_table1 table .last {border-right:none;}
+.ntab01_content .ntab01_desc .limit_table2 {margin-top:10px;}
+.ntab01_content .ntab01_desc .limit_table2 table {width:100%;border-top:1px solid #54be78;}
+.ntab01_content .ntab01_desc .limit_table2 table th {height:63px;background:#f8f8f8;border-right:1px solid #dddddd;border-bottom:1px solid #dddddd;}
+.ntab01_content .ntab01_desc .limit_table2 table td {height:33px;text-align:center;border-right:1px solid #dddddd;border-bottom:1px solid #dddddd;}
+.ntab01_content .ntab01_desc .limit_table2 table td span {color:#f75701;font-weight:normal;padding-left:0px;}
+.ntab01_content .ntab01_desc .limit_table2 table .last {border-right:none;}
+.ntab01_content .ntab01_desc .sp_fileDown {display:inline-block;background:url("/portal/images/inc/ico_file.gif") no-repeat left center;padding-left:15px;margin-top:5px;margin-left:12px;}
+.ntab01_content .ntab01_desc .sp_fileDown a {text-decoration:underline;}
+
+/* 2013.10.21 박재인 추가 */
+.ntab01_content .ntab01_desc .ntab01_bg {background:url("/portal/images/inc/bg_limit_10.gif") no-repeat left top;margin-top:20px;}
+.ntab01_content .ntab01_desc .ntab01_bg ul {padding-left:160px;}
+.ntab01_content .ntab01_desc .ntab01_bg ul li {/*word-break:keep-all;*/line-height:20px;padding:3px 0; width:570px;}
+.ntab01_content .ntab01_desc .ntab01_bg_1 {background:url("/portal/images/inc/bg_limit_11.gif") no-repeat left top;margin-top:20px;}
+.ntab01_content .ntab01_desc .ntab01_bg_1 ul {padding-left:160px;}
+.ntab01_content .ntab01_desc .ntab01_bg_1 ul li {/*word-break:keep-all;*/line-height:20px;padding:3px 0; width:580px;}
+.pro2_h {height:130px;clear:both;}
+.pro2_img {width:160px;float:left;}
+.pro2_tex {width:500px;float:left;border-bottom:1px solid #cccccc;}
+.sec2 {margin:15px 0 15px 10px;}
+.sec2 > li {padding-left:13px;font-weight:bold;}
+.sec2 > li > ul > li {padding-left:10px;font-weight:normal;background:url("/portal/images/inc/ico_grayDot1.gif") no-repeat left 9px;}
+.mb5 {margin-bottom:5px;}
+
+/* //2013.10.21 박재인 추가 */
+.ntab01_content .tab08_table {margin-top:10px;width:100%;border-top:1px solid #54be78;}
+.ntab01_content .tab08_table th {height:63px;background:#f8f8f8;border-right:1px solid #dddddd;border-bottom:1px solid #dddddd;}
+.ntab01_content .tab08_table td {text-align:center;border-right:1px solid #dddddd;border-bottom:1px solid #dddddd;height:41px;}
+.ntab01_content .tab08_table .last {border-right:none;}
+.sp_link {display:block;text-align:center;color:#666666;font-weight:bold;}
+.ntab01_content .tab0879_table {margin-top:10px;width:100%;border-top:1px solid #54be78;}
+.ntab01_content .tab0879_table th {height:32px;background:#f8f8f8;border-right:1px solid #dddddd;border-bottom:1px solid #dddddd;}
+.ntab01_content .tab0879_table td {text-align:center;border-right:1px solid #dddddd;border-bottom:1px solid #dddddd;height:41px;}
+.ntab01_content .tab0879_table .last {border-right:none;}
+
+/* 안전산행 - 스트레칭법*/
+.stretching {}
+.stretching .h4_stretching {background:url("/portal/images/inc/ico_arrow_green.gif") no-repeat left center;color:#323232;padding-left:10px;font-size:14px;font-weight:bold;}
+.stretching p {padding-top:10px;padding-left:10px;line-height:20px;}
+
+/* 안전산행 - 보행 법 */
+.walk_method {}
+.walk_method .h4_walk {background:url("/portal/images/inc/ico_arrow_green.gif") no-repeat left center;color:#323232;padding-left:10px;font-size:14px;font-weight:bold;}
+.walk_method ul {padding-top:8px;padding-left:10px;}
+.walk_method ul li {line-height:20px;}
+.walk_method p {padding-top:15px;padding-left:10px;}
+
+/* 안전산행 - 스틱사용 법 */
+.stick {}
+.stick ul {}
+.stick ul li {line-height:20px;}
+.stick .h4_stick {background:url("/portal/images/inc/ico_arrow_green.gif") no-repeat left center;color:#323232;padding-left:10px;font-size:14px;font-weight:bold;}
+.stick .stick_images {padding-top:22px;padding-bottom:30px;}
+.stick .stick_images img {border:1px solid #dedede;}
+.stick .stick1_images {padding-top:22px;padding-bottom:30px;}
+.stick .stick1_images img {border:1px solid #dedede;}
+
+/* 안전물놀이 - 물놀이 안전 수칙 */
+.safe_water {background:url("/portal/images/inc/bg_water.gif") no-repeat left top;margin-top:-40px;padding-top:210px;overflow:hidden;}
+.safe_water .safe1 {float:left;}
+.safe_water .safe1 .safe_img {padding-top:10px;}
+.safe_water .safe1 .safe_img li {padding-bottom:5px;}
+.safe_water .safe_desc {float:left;padding-left:30px;padding-top:15px;}
+.safe_water .safe_desc .h5_safe {margin-top:30px;background:url("/portal/images/inc/ico_arrow_green.gif") no-repeat left center;color:#323232;padding-left:10px;font-size:14px;font-weight:bold;}
+.safe_water .safe_desc .ul_desc {padding-left:10px;padding-top:9px;}
+.safe_water .safe_desc .ul_desc li {line-height:20px;}
+.safe_water .safe_desc .for_children {border:1px solid #f2edd7;background:#fffee0;margin-top:44px;padding:20px 0 25px 19px;}
+.safe_water .safe_desc .for_children span {color:#f75701;font-weight:bold;}
+.safe_water .safe_desc .for_children ul {}
+.safe_water .safe_desc .for_children ul li {line-height:20px;}
+
+/* 사고대응 - 조난 시 */
+.action_tab01 {margin-bottom:20px;}
+.action_tab01 .ntab01 {overflow:hidden;}
+.action_tab01 .ntab01 li {float:left;margin-bottom:0px;}
+.action_tab01 .ntab01 li a {white-space:nowrap;display:block;font-size:12px;padding-left:10px;background:url("/portal/images/inc/bg_tablimitnew1_off.gif") no-repeat 0 0;/* border-radius:10px 10px 0 0; border-right:1px solid #8f8f8f;background:#acacac;*/color:#ffffff;font-weight:bold;}
+.action_tab01 .ntab01 li span{display:block;height:27px;padding:8px 10px 0 0px;text-align:center;width:349px;margin-bottom:10px;background:url("/portal/images/inc/bg_tablimitnew2_off.gif") no-repeat 100% 0;}
+.action_tab01 .ntab01 li a.on {background:url("/portal/images/inc/bg_tablimitnew1_on.gif") no-repeat 0 0;text-decoration:underline}
+.action_tab01 .ntab01 li a.on span{background:url("/portal/images/inc/bg_tablimitnew2_on.gif") no-repeat 100% 0;}
+.action_tab01 .ntab_01_content {margin-top:15px;}
+.action_tab01 .ntab_01_content .h4_tab_title {background:url("/portal/images/inc/ico_arrow_green.gif") no-repeat left center;color:#323232;padding-left:10px;font-size:14px;font-weight:bold;}
+.action_tab01 .ntab_01_content .p_mount {padding-top:8px;padding-left:10px;line-height:20px;}
+.action_tab01 .ntab_01_content .p_mount1 {padding-top:5px;padding-left:20px;line-height:20px;}
+.ico_gray_arrow {display:inline-block;margin-left:18px;background:url("/portal/images/inc/gray_circle_arrow.gif") no-repeat left center;padding-left:20px;color:#474747;font-weight:bold;}
+.ico_action_title {display:inline-block;margin-left:12px;margin-top:10px;padding-left:10px;background:url("/portal/images/inc/ico_grayDot1.gif") no-repeat left center;color:#333333;font-weight:bold;}
+
+.accident01 {border:3px solid #dedede;padding:17px 0 0 0px;margin:22px 0 0 20px;}
+.accident01 ul {overflow:hidden;padding-top:10px;padding-left:27px;margin-right:25px;padding-bottom:20px;}
+.accident01 ul li {float:left;background:url("/portal/images/inc/line_depth.gif") no-repeat right center;padding:0 10px;line-height:22px;}
+.accident01 ul li a.on {font-weight:bold;color:#333333;}
+.accident01 .accident_list {background:#f2f2f2;padding:18px 0 18px 35px;}
+.action_tab01 .ul_desc {padding:10px 0 0 20px;}
+.action_tab01 .ul_desc li {line-height:20px;}
+.action_tab01 .accident_01 {overflow:hidden;}
+.action_tab01 .accident_01 li {float:left;margin-bottom:0px;background:url("/portal/images/inc/line_depth.gif") no-repeat right center;padding:0 10px;}
+.action_tab01 .accident_01 li.last {background:none;padding-right:0;}
+.action_tab01 .accident_01 li a {white-space:nowrap;display:block;padding-left:0px;}
+.action_tab01 .accident_01 li span{display:block;padding:0px 0px 0px 0px;}
+.action_tab01 .accident_01 li a.on {}
+.action_tab01 .accident_01 li a.on span{font-weight:bold;color:#333333;}
+
+.acc_tab1 {border:3px solid #dedede;margin-top:10px;margin-left:15px;}
+.acc_tab1 .accident_img {padding:20px 0 0 235px;clear:both;height:280px;background:#f2f2f2 url("/portal/images/inc/img_accident1.jpg") no-repeat 30px 20px;}
+.acc_tab1 .accident_img1 {padding:20px 0 0 235px;clear:both;height:280px;background:#f2f2f2 url("/portal/images/inc/img_accident2.jpg") no-repeat 30px 20px;}
+.acc_tab1 .accident_img2 {padding:235px 0 0 30px;clear:both;height:65px;background:#f2f2f2 url("/portal/images/inc/img_accident3.jpg") no-repeat 30px 20px;}
+.acc_tab1 .accident_img3 {padding:235px 0 0 30px;clear:both;height:65px;background:#f2f2f2 url("/portal/images/inc/img_accident4.jpg") no-repeat 30px 20px;}
+.acc_tab1 .accident_img4 {padding:235px 0 0 30px;clear:both;height:65px;background:#f2f2f2 url("/portal/images/inc/img_accident5.jpg") no-repeat 30px 20px;}
+.acc_tab1 .accident_img5 {padding:235px 0 0 30px;clear:both;height:65px;background:#f2f2f2 url("/portal/images/inc/img_accident6.jpg") no-repeat 30px 20px;}
+.acc_tab1 .accident_img6 {padding:235px 0 0 30px;clear:both;height:65px;background:#f2f2f2 url("/portal/images/inc/img_accident7.jpg") no-repeat 30px 20px;}
+.acc_tab1 .accident_img7 {padding:235px 0 0 30px;clear:both;height:65px;background:#f2f2f2 url("/portal/images/inc/img_accident8.jpg") no-repeat 30px 20px;}
+.acc_tab1 .accident_img8 {padding:235px 0 0 30px;clear:both;height:65px;background:#f2f2f2 url("/portal/images/inc/img_accident9.jpg") no-repeat 30px 20px;}
+.accident_img9 {padding-left:20px;padding-top:10px;}
+.accident_img9 img{border:1px solid #dedede;}
+.accident_img10 {padding-left:20px;padding-top:10px;}
+.accident_img10 img{border:1px solid #dedede;}
+.accident_img11 {padding-left:20px;padding-top:10px;}
+.accident_img11 img{border:1px solid #dedede;}
+.accident_img12 {padding-left:20px;padding-top:10px;}
+.accident_img12 img{border:1px solid #dedede;}
+.accident_img13 {padding-left:20px;padding-top:10px;}
+.accident_img13 img{border:1px solid #dedede;}
+.accident_img14 {padding-left:20px;padding-top:10px;}
+.accident_img14 img{border:1px solid #dedede;}
+.accident_img15 {padding-left:20px;padding-top:10px;}
+.accident_img15 img{border:1px solid #dedede;}
+.accident_img16 {padding-left:20px;padding-top:10px;}
+.accident_img16 img{border:1px solid #dedede;}
+.accident_img17 {padding-left:20px;padding-top:10px;}
+.accident_img17 img{border:1px solid #dedede;}
+.acc_tab1 .accident_01 {padding:10px 0 15px 27px;}
+.sea_accident {background:#f9f9f9;border:1px solid #dfdfdf;padding:20px;}
+.sea_accident p {line-height:20px;}
+.ul_sea {padding-top:20px;}
+.ul_sea li {padding-left:9px;line-height:20px;}
+.ul_sea1 {padding-top:20px;overflow:hidden;}
+.ul_sea1 li {float:left;padding-left:10px;line-height:20px;}
+
+/* 부상 시 */
+.wound {}
+.wound .h4_wound {background:url("/portal/images/inc/ico_arrow_green.gif") no-repeat left center;color:#323232;padding-left:10px;font-size:14px;font-weight:bold;}
+.wound .emergency {overflow:hidden;padding-top:15px;}
+.wound .emergency .emergency_table {float:left;margin-left:10px;}
+.wound .emergency .emergency_table table {width:380px;border-top:1px solid #54be78;}
+.wound .emergency .emergency_table table th {height:47px;background:#f8f8f8;}
+.wound .emergency .emergency_table table th, .emergency .emergency_table table td {border-bottom:1px solid #dddddd;border-right:1px solid #dddddd;}
+.wound .emergency .emergency_table table td {padding-left:10px;}
+.wound .emergency .emergency_table table td.last {border-right:none;}
+.wound .emergency .emergency_img {float:right;}
+.wound .emergency .emergency_img img {border:1px solid #dadada;}
+.wound .ul_emergency {overflow:hidden;padding-left:10px;padding-top:10px;}
+.wound .ul_emergency li {float:left;padding-right:5px;}
+.wound .ul_emergency li.last {padding-right:0px;}
+.wound .ul_emergency li img {border:1px solid #d9d9d9;}
+.wound .emergency_table1 {padding-top:15px;margin-left:10px;}
+.wound .emergency_table1 table {width:100%;border-top:1px solid #54be78;}
+.wound .emergency_table1 table th {height:65px;background:#f8f8f8;}
+.wound .emergency_table1 table th, .wound .emergency_table1 table td {border-bottom:1px solid #dddddd;border-right:1px solid #dddddd;}
+.wound .emergency_table1 table td {padding-left:10px;}
+.wound .emergency_table1 table td.last {border-right:none;}
+.wound .ul_emergency1 {padding-left:20px;padding-top:5px;}
+.wound .ul_emergency1 li {line-height:20px;}
+.wound .ul_emergency1 li span {color:#339933;font-weight:bold;}
+.wound .emergency_img1 {margin-left:20px;padding-top:10px;}
+.wound .emergency_img1 img {border:1px solid #dadada;}
+.wound .emergency_img2 {margin-left:20px;padding-top:20px;}
+.wound .emergency_img3 {margin-left:10px;padding-top:20px;}
+.wound .emergency_img3 img {border:1px solid #dadada;}
+.bee_attack {padding-left:20px;}
+.bee_attack span {color:#339933;font-weight:bold;}
+.wound .emergency_table2 {padding-top:15px;margin-left:10px;}
+.wound .emergency_table2 table {width:100%;border-top:1px solid #54be78;}
+.wound .emergency_table2 table th {height:49px;background:#f8f8f8;}
+.wound .emergency_table2 table th, .wound .emergency_table2 table td {border-bottom:1px solid #dddddd;border-right:1px solid #dddddd;}
+.wound .emergency_table2 table td {padding-left:10px;text-align:center;}
+.wound .emergency_table2 table td.last {border-right:none;}
+.wound .ice_emergency {padding-top:20px;padding-left:10px;overflow:hidden;}
+.wound .ice_emergency img {float:left;border:1px solid #dadada;}
+.wound .ice_emergency ul {padding-left:310px;}
+.wound .ice_emergency ul li {}
+
+/* 동상예방법 */
+.bronze {}
+.bronze .h4_bronze {background:url("/portal/images/inc/ico_arrow_green.gif") no-repeat left center;color:#323232;padding-left:10px;font-size:14px;font-weight:bold;}
+.bronze span {display:block;padding:15px 0 5px 10px;color:#339933;font-weight:bold;}
+.bronze p {padding-left:22px;line-height:20px;}
+
+/* 물놀이 */
+.report_tab01_hs .ntab01 {overflow:hidden;}
+.report_tab01_hs .ntab01 li {float:left;margin-bottom:0px;}
+.report_tab01_hs .ntab01 li a {white-space:nowrap;display:block;font-size:12px;padding-left:30px;background:url("/portal/images/inc/bg_tablimitnew1_off.gif") no-repeat 0 0;/* border-radius:10px 10px 0 0; border-right:1px solid #8f8f8f;background:#acacac;*/color:#ffffff;font-weight:bold;}
+.report_tab01_hs .ntab01 li span{display:block;height:27px;padding:8px 58px 0 30px;margin-bottom:10px;background:url("/portal/images/inc/bg_tablimitnew2_off.gif") no-repeat 100% 0;}
+.report_tab01_hs .ntab01 li a.on {background:url("/portal/images/inc/bg_tablimitnew1_on.gif") no-repeat 0 0;text-decoration:underline}
+.report_tab01_hs .ntab01 li a.on span{background:url("/portal/images/inc/bg_tablimitnew2_on.gif") no-repeat 100% 0;}
+.report_tab01_hs .ntab_01_content {padding-top:15px;}
+.report_tab01_hs .ntab_01_content p{line-height:20px;}
+.report_tab01_hs .ntab_01_content .h4_report {background:url("/portal/images/inc/ico_arrow_green.gif") no-repeat left center;color:#323232;padding-left:10px;font-size:14px;font-weight:bold;}
+.report_tab01_hs .ntab_01_content .sp_report {display:block;padding-top:15px;padding-bottom:15px;}
+.report_tab01_hs .ntab_01_content .sp_report img {border:1px solid #dadada;}
+.report_tab01_hs .ntab_01_content .ul_report {padding:10px 0 15px 10px;}
+.report_tab01_hs .ntab_01_content .ul_report li {line-height:20px;}
+.report_tab01_hs .ntab_01_content .ul_report1 {overflow:hidden;}
+.report_tab01_hs .ntab_01_content .ul_report1 li {float:left;padding-right:22px;padding-top:23px}
+.report_tab01_hs .ntab_01_content .ul_report1 li.last {padding-right:0px;}
+.report_tab01_hs .ntab_01_content .ul_report1 li.under {padding-top:0px;}
+.report_tab01_hs .ntab_01_content .ul_report1 li img {border:1px solid #dedede;}
+.report_tab01_hs .ntab_01_content .ul_report1 li span {display:block;text-align:center;background:#f2f2f2;padding:8px 0;font-weight:bold;color:#646464;}
+.report_tab01_hs .ntab_01_content .report_table {width:100%;margin-top:15px;margin-left:10px;border-top:1px solid #54be78;}
+.report_tab01_hs .ntab_01_content .report_table th {height:35px;background:#f8f8f8;}
+.report_tab01_hs .ntab_01_content .report_table th, .report_tab01_hs .ntab_01_content .report_table td {border-bottom:1px solid #dddddd;border-right:1px solid #dddddd;}
+.report_tab01_hs .ntab_01_content .report_table td {text-align:center;}
+.report_tab01_hs .ntab_01_content .report_table td.last {border-right:none;}
+
+/* 신고방법 */
+.report_tab01 .ntab01 {overflow:hidden;}
+.report_tab01 .ntab01 li {float:left;margin-bottom:0px;}
+.report_tab01 .ntab01 li a {white-space:nowrap;display:block;font-size:12px;padding-left:10px;background:url("/portal/images/inc/bg_tablimitnew1_off.gif") no-repeat 0 0;/* border-radius:10px 10px 0 0; border-right:1px solid #8f8f8f;background:#acacac;*/color:#ffffff;font-weight:bold;}
+.report_tab01 .ntab01 li span{display:block;width:349px;text-align:center;height:27px;padding:8px 10px 0 0;margin-bottom:10px;background:url("/portal/images/inc/bg_tablimitnew2_off.gif") no-repeat 100% 0;}
+.report_tab01 .ntab01 li a.on {background:url("/portal/images/inc/bg_tablimitnew1_on.gif") no-repeat 0 0;text-decoration:underline}
+.report_tab01 .ntab01 li a.on span{background:url("/portal/images/inc/bg_tablimitnew2_on.gif") no-repeat 100% 0;}
+.report_tab01 .ntab_01_content {padding-top:15px;}
+.report_tab01 .ntab_01_content p{line-height:20px;}
+.report_tab01 .ntab_01_content .h4_report {background:url("/portal/images/inc/ico_arrow_green.gif") no-repeat left center;color:#323232;padding-left:10px;font-size:14px;font-weight:bold;}
+.report_tab01 .ntab_01_content .sp_report {display:block;padding-top:15px;padding-bottom:0px;}
+.report_tab01 .ntab_01_content .sp_report img {border:1px solid #dadada;}
+.report_tab01 .ntab_01_content .ul_report {padding:10px 0 15px 10px;}
+.report_tab01 .ntab_01_content .ul_report li {line-height:20px;}
+.report_tab01 .ntab_01_content .ul_report1 {overflow:hidden;}
+.report_tab01 .ntab_01_content .ul_report1 li {float:left;padding-right:22px;padding-top:23px}
+.report_tab01 .ntab_01_content .ul_report1 li.last {padding-right:0px;}
+.report_tab01 .ntab_01_content .ul_report1 li.under {padding-top:0px;}
+.report_tab01 .ntab_01_content .ul_report1 li img {border:1px solid #dedede;}
+.report_tab01 .ntab_01_content .ul_report1 li span {display:block;text-align:center;background:#f2f2f2;padding:8px 0;font-weight:bold;color:#646464;}
+.report_tab01 .ntab_01_content .report_table {width:100%;margin-top:15px;margin-left:10px;border-top:1px solid #54be78;}
+.report_tab01 .ntab_01_content .report_table th {height:35px;background:#f8f8f8;}
+.report_tab01 .ntab_01_content .report_table th, .report_tab01 .ntab_01_content .report_table td {border-bottom:1px solid #dddddd;border-right:1px solid #dddddd;}
+.report_tab01 .ntab_01_content .report_table td {padding-left:10px;text-align:center;}
+.report_tab01 .ntab_01_content .report_table td.last {border-right:none;}
+
+/* 산행정보 APP 사용법 */
+.report_tab01 .ntab_01_content .ul_report2 {overflow:hidden;}
+.report_tab01 .ntab_01_content .ul_report2 li {float:left;padding-right:11px;padding-top:17px}
+.report_tab01 .ntab_01_content .ul_report2 li.last {padding-right:0px;}
+.report_tab01 .ntab_01_content .ul_report2 li.under {padding-top:0px;}
+.report_tab01 .ntab_01_content .ul_report2 li img {border:1px solid #dedede;}
+.report_tab01 .ntab_01_content .p_report {padding:15px 0 0 0;line-height:20px;}
+.report_tab01 .ntab_01_content .sp_report1 {display:block;color:#339933;font-weight:bold;padding-top:25px;}
+.report_tab01 .ntab_01_content .sp_report2 {display:block;padding-top:25px;}
+.report_tab01 .ntab_01_content .sp_report2 a {text-decoration:underline;}
+.report_tab01 .ntab_01_content .sp_mobile_title {display:block;padding-top:15px;background:url("/portal/images/inc/mobile_title.gif") no-repeat 10px 15px;width:271px;height:17px;}
+.report_tab01 .ntab_01_content .p_report1 {padding:15px 0 0 10px;}
+.report_tab01 .ntab_01_content .ul_report3 {}
+.report_tab01 .ntab_01_content .ul_report3 li {line-height:20px;}
+.report_tab01 .ntab_01_content .ul_report4 {padding-left:40px;margin-left:10px;margin-top:15px;background:url("/portal/images/inc/bg_iphone.gif") no-repeat left top;}
+.report_tab01 .ntab_01_content .ul_report4 li {line-height:20px;}
+.report_tab01 .ntab_01_content .ul_report4 li span {display:block;color:#339933;font-weight:bold;padding-top:5px;padding-bottom:5px;}
+.report_tab01 .ntab_01_content .ul_report5 {padding-left:40px;margin-left:10px;margin-top:30px;background:url("/portal/images/inc/bg_android.gif") no-repeat left top;}
+.report_tab01 .ntab_01_content .ul_report5 li {line-height:20px;}
+.report_tab01 .ntab_01_content .ul_report5 li span {display:block;color:#339933;font-weight:bold;padding-top:5px;padding-bottom:5px;}
+.report_tab01 .ntab_01_content .ul_report6 {padding-top:20px;}
+.report_tab01 .ntab_01_content .ul_report6 li {line-height:20px;}
+
+/* 유행동물 대처 법 */
+.animal_tab01 .ntab01 {overflow:hidden;}
+.animal_tab01 .ntab01 li {float:left;margin-bottom:0px;}
+.animal_tab01 .ntab01 li a {white-space:nowrap;display:block;font-size:12px;padding-left:65px;background:url("/portal/images/inc/bg_tablimitnew1_off.gif") no-repeat 0 0;/* border-radius:10px 10px 0 0; border-right:1px solid #8f8f8f;background:#acacac;*/color:#ffffff;font-weight:bold;}
+.animal_tab01 .ntab01 li span{display:block;height:27px;padding:8px 110px 0 43px;margin-bottom:10px;background:url("/portal/images/inc/bg_tablimitnew2_off.gif") no-repeat 100% 0;}
+.animal_tab01 .ntab01 li a.on {background:url("/portal/images/inc/bg_tablimitnew1_on.gif") no-repeat 0 0;text-decoration:underline}
+.animal_tab01 .ntab01 li a.on span{background:url("/portal/images/inc/bg_tablimitnew2_on.gif") no-repeat 100% 0;}
+.animal_tab01 .ntab_01_content {padding-top:20px;}
+.animal_tab01 .ntab_01_content .h4_animal {background:url("/portal/images/inc/ico_arrow_green.gif") no-repeat left center;color:#323232;padding-left:10px;font-size:14px;font-weight:bold;}
+.animal_tab01 .ntab_01_content .ul_animal01 {overflow:hidden;padding-left:10px;padding-top:15px;}
+.animal_tab01 .ntab_01_content .ul_animal01 li {float:left;overflow:hidden;padding-right:40px;}
+.animal_tab01 .ntab_01_content .ul_animal01 li.last {padding-right:0px;}
+.animal_tab01 .ntab_01_content .ul_animal01 li span {font-weight:bold;margin-left:10px;display:block;padding-left:10px;margin-top:5px;margin-bottom:20px;}
+.animal_tab01 .ntab_01_content dl {overflow:hidden;padding:15px 0 0 10px;}
+.animal_tab01 .ntab_01_content dl dt {float:left;}
+.animal_tab01 .ntab_01_content dl dd {padding-left:350px;line-height:20px;}
+.animal_tab01 .ntab_01_content dl dd.dd_title {padding:15px 0px 5px 10px;margin-left:330px;display:block;}
+.animal_tab01 .ntab_01_content dl dd.dd_title span {font-weight:bold;display:block;padding-left:10px;}
+.animal_tab01 .ntab_01_content .animal_wild_pig {width:736px;height:200px;background:#f9f9f9 url("/portal/images/inc/bg_wildpig.gif") no-repeat 30px center;border:1px solid #dfdfdf;}
+.animal_tab01 .ntab_01_content .animal_wild_pig ul {padding-left:255px;padding-top:35px;}
+.animal_tab01 .ntab_01_content .animal_wild_pig ul li {line-height:22px;line-height:20px;}
+.animal_tab01 .ntab_01_content .ul_wild1 {padding:10px 0 0 10px;}
+.animal_tab01 .ntab_01_content .ul_wild1 li {line-height:20px;}
+.animal_tab01 .ntab_01_content .acari1 {overflow:hidden;}
+.animal_tab01 .ntab_01_content .acari1 .sub_acari1 {float:left;}
+.animal_tab01 .ntab_01_content .acari1 .sub_acari1 .ul_acari {padding:5px 0 0 10px;}
+.animal_tab01 .ntab_01_content .acari1 .sub_acari1 .ul_acari li {line-height:22px;}
+.animal_tab01 .ntab_01_content .acari1 .sub_acari2 {float:right;}
+.animal_tab01 .ntab_01_content .acari1 .sub_acari2 img {border:1px solid #d9d9d9;}
+.animal_tab01 .ntab_01_content .acari1 .sub_acari2 ul {overflow:hidden;}
+.animal_tab01 .ntab_01_content .acari1 .sub_acari2 ul li {float:left;}
+.animal_tab01 .ntab_01_content .ul_acari1 {padding:5px 0 0 10px;}
+.animal_tab01 .ntab_01_content .ul_acari1 li {line-height:20px;}
+.animal_tab01 .ntab_01_content .acari4 {overflow:hidden;margin-top:40px;}
+.animal_tab01 .ntab_01_content .acari4 .sub_acari3 img {border:1px solid #d9d9d9;}
+.animal_tab01 .ntab_01_content .acari4 .sub_acari3 {float:left;}
+.animal_tab01 .ntab_01_content .acari4 .sub_acari4 {padding-left:235px;}
+.animal_tab01 .ntab_01_content .acari4 .sub_acari4 ul {padding:5px 0 0 10px;}
+.animal_tab01 .ntab_01_content .acari4 .sub_acari4 ul li {line-height:20px;}
+
+/* padding Or margin */
+.pt5 {padding-top:5px;}
+.pt10 {padding-top:10px;}
+.pt15 {padding-top:15px;}
+.pt20 {padding-top:20px;}
+.pt25 {padding-top:25px;}
+.pt30 {padding-top:30px;}
+.pl10 {padding-left:10px;}
+.pl15 {padding-left:15px;}
+.pl19 {padding-left:19px;}
+.pl20 {padding-left:20px;}
+.pl25 {padding-left:25px;}
+.pl30 {padding-left:30px;}
+.pl35 {padding-left:35px;}
+.pl40 {padding-left:40px;}
+.pl45 {padding-left:45px;}
+.pl50 {padding-left:50px;}
+.pl55 {padding-left:55px;}
+
+.mb {margin-bottom:0}
+
+/* 한국의  국립공원 2017.12.05일 */
+
+.knps{clear:both;position:relative;}
+.knps p{texe-align:justify}
+.knps h5{background:url("/portal/images/inc/ico_arrow_green.gif") no-repeat left center;padding-left:10px;font-size:16px; margin:20px 0px 10px 0px}
+.knps ul{margin-top:10px;}
+.knps li{padding:5px 0px 5px 10px;}
+.knps .img{margin:10px 0px; width:100%;overflow:hidden;texe-align:justify}
+.knps .img ul{margin: 0px; padding:0px; overflow:hidden}
+.knps .img li{float:left}
+.knps .img .img_title{text-align:center; font-weight:bold}
+.knps .gubun {margin:15px 0px 0px 0px; padding:0px 0px 0px 0px; border-top:#ccc 1px solid}
+.knps .content-subtitle {padding:10px 0px;}
+.knps .comment{padding:10px;border:#ccc 1px solid}
+.knps  table {width:500px;border-top:1px solid #54be78;}
+.knps  table th {height:49px;background:#f8f8f8;border-bottom:1px solid #dddddd;border-right:1px solid #dddddd;}
+.knps  table td {border-bottom:1px solid #dddddd;border-right:1px solid #dddddd;}
+.knps  table td {padding:10px;text-align:center;}
+.knps  table td.last {border-right:none;text-align:left;}
+
+.knps .aside{position:absolute; right:0px; top:0px;}
+.knps .aside li {padding:20px 0px 80px 0px;text-align:right}
+
+
+

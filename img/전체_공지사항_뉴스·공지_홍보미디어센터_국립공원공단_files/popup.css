@@ -1,0 +1,146 @@
+@charset "utf-8";
+
+/* 예약 날짜 계산기 */
+.pop_reserve {width:650px;height:280px;background:#fff;}
+.pop_reserve .h1_pop {font-size:21px;padding:22px 0px 20px 23px;background:url("/portal/images/inc/bg_pop_topline.gif") repeat-x;color:#444444;}
+.pop_reserve .h1_pop span {color:#037bc7;}
+.pop_reserve ul {padding:27px 0px 0px 24px;}
+.pop_reserve ul li.center {padding:30px 0px 25px 215px;}
+.pop_reserve ul li.ico_blue {background:url("/portal/images/inc/blue_dot.gif") no-repeat left center;padding-left:8px;}
+.pop_reserve ul li .pop_subtitle {padding-right:30px;font-weight:bold;color:#222222;}
+.pop_reserve .start_day {padding-left:15px;}
+
+/* 대피소 판매물품 안내 */
+.pop_info {width:650px;height:567px;background:#fff;}
+.pop_info .h1_pop {font-size:21px;padding:22px 0px 20px 23px;background:url("/portal/images/inc/bg_pop_topline.gif") repeat-x;color:#444444;}
+.pop_info .h1_pop span {color:#037bc7;}
+.pop_info .infomation {padding:23px 0px 0px 23px;}
+.pop_info .infomation .p_info {padding:25px 0px 27px 0px;}
+.pop_info .infomation table {width:100%;text-align:center;border-top:1px solid #4ea2d8;margin-top:14px;}
+.pop_info .infomation table th {background:#f8f8f8;border-bottom:1px solid #dddddd;border-right:1px solid #dddddd;height:29px;}
+.pop_info .infomation table td {height:29px;border-bottom:1px solid #e6e6e6;border-right:1px solid #e6e6e6;}
+
+/* 국립공원 시설물 포토슬라이드 */
+.pop_slide {border-top:4px solid #037bc7;width:650px;height:724px;background:#fff;}
+.pop_slide .pop_content {width:604px;margin:0 auto;padding-bottom:15px;}
+.pop_slide .pop_content .pop_title {position:relative;}
+.pop_slide .pop_content .pop_title .h1_poptitle {color:#037bc7;font-size:16px;border-bottom:1px solid #e0e0e0;text-align:center;padding:27px 0px 25px 0px;}
+.pop_slide .pop_content .pop_title .sp_btn {position:absolute;top:0px;right:1px;}
+
+.pop_slide .pop_content .photo {position:relative;text-align:center;padding-top:26px;}
+.pop_slide .pop_content .photo .sp_prev {position:absolute;left:0px;top:158px;}
+.pop_slide .pop_content .photo .sp_next {position:absolute;right:0px;top:158px;}
+.pop_slide .pop_content .photo ul li p {margin:0 auto;font-size:12px;font-weight:bold;color:#323232;padding:14px 0px;background:#e3e3e3;width:490px;}
+.pop_slide .pop_content .pop_desc {margin:5px auto;overflow-y:scroll;width:488px;height:110px;border:1px solid #e3e3e3;}
+
+.pop_slide .photo_select {position:relative;background:url("/portal/images/inc/bg_pop_bottom.gif") repeat-x;height:82px;padding-top:35px;}
+.pop_slide .photo_select .sp_prev {position:absolute;left:24px;top:47px;}
+.pop_slide .photo_select ul {padding-left:60px;}
+.pop_slide .photo_select ul li {float:left;padding:0px 2px;}
+.pop_slide .photo_select ul li img{border:1px solid #d2d2d2;}
+.pop_slide .photo_select .sp_next {position:absolute;right:20px;top:47px;}
+
+/* 탐방프로그램 레이어 팝업 */
+.pop_visit {position:relative;border:3px solid #5b9bc7;width:801px;height:452px;background:#fff;}
+.pop_visit .sp_btn {position:absolute;right:16px;top:0px;}
+.pop_visit .pop_content {padding:36px 19px 0px 20px;}
+.pop_visit .pop_content .pop_img {float:left;}
+.pop_visit .pop_content .pop_img .pop_pic img {border:1px solid #a4a4a4;}
+.pop_visit .pop_content .pop_img ul {padding-top:10px;}
+.pop_visit .pop_content .pop_img ul li {float:left;padding-right:8px;}
+.pop_visit .pop_content .pop_img ul li img{border:1px solid #a4a4a4;}
+.pop_visit .pop_content .pop_desc {float:right;width:315px;}
+.pop_visit .pop_content .pop_desc .visit_title {padding-right:22px;border-bottom:1px solid #ebebeb;}
+.pop_visit .pop_content .pop_desc .h3_visit {font-size:16px;color:#000000;font-weight:bold;padding-bottom:13px;}
+.pop_visit .pop_content .pop_desc p {padding-top:9px;}
+.pop_visit .pop_content .pop_desc table {width:100%;margin-top:20px;}
+.pop_visit .pop_content .pop_desc table th {text-align:left;padding-left:10px;background:#f5f5f5;height:21px;border-top:1px solid #ebebeb;border-bottom:1px solid #ebebeb;}
+.pop_visit .pop_content .pop_desc table td {padding-left:8px;border-top:1px solid #ebebeb;border-bottom:1px solid #ebebeb;}
+.pop_visit .pop_content .pop_desc .sp_btn1 {display:inline-block;float:right;padding-top:20px;}
+
+/* 공원안내 - 시설안내상세보기 */
+.pop_facilities {width:453px;height:382px;background:#fff;}
+.pop_facilities .pop_facilities_title {overflow:hidden;background:url("../../portal/images/inc/bg_pop_topline1.gif") no-repeat;}
+.pop_facilities .pop_facilities_title .h2_facilities {float:left;font-size:14px;color:#fff;font-weight:bold;padding:8px 0 9px 13px;}
+.pop_facilities .pop_facilities_title a {float:right;padding:12px 15px 0 0;}
+
+.pop_facilities .pop_facilities_content {padding:10px 9px 13px 8px; background:#f2f2f2;height:345px;border-right:2px solid #499e54;border-bottom:2px solid #499e54;border-left:2px solid #499e54;}
+
+
+/* 탐방일지 읽기 */
+.pop_visit1 {width:650px; height:526px; padding-bottom:20px;background:#fff; }/*0906수정*/
+.pop_visit1 .pop_visit_title {position:relative;}
+.pop_visit1 .pop_visit_title .h2_visit {padding-top:20px;padding-left:26px;padding-bottom:22px;font-size:16px;font-weight:bold;color:#000000;}
+.pop_visit1 .pop_visit_title a {position:absolute;right:15px;top:0px;}
+.pop_visit1 .pop_visit_content {padding:0 15px 0 20px;}
+.pop_visit1 .pop_visit_content table {border-top:2px solid #727272;}
+.pop_visit1 .pop_visit_content table th {padding-left:10px;font-weight:normal;height:34px;text-align:left;color:#636363;background:#f7f7f7;border-left:1px solid #d2d2d2;border-right:1px solid #d2d2d2;border-bottom:1px solid #d2d2d2;}
+.pop_visit1 .pop_visit_content table td {padding:5px 7px 5px 6px;border-left:1px solid #d9d9d9;border-right:1px solid #d9d9d9;border-bottom:1px solid #d9d9d9;}
+.pop_visit1 .pop_visit_content table td .inp346 {margin-top:5px;}
+.pop_visit1 .pop_visit_content table td textarea {resize:none;}
+.pop_visit1 .pop_visit_content table td span {font-size:11px;color:#646464;padding-top:5px;}
+.pop_visit1 .pop_visit_content table td input,
+.pop_visit1 .pop_visit_content table td img {vertical-align:middle;}
+.pop_visit1 .pop_visit_content p {text-align:center;padding-top:20px;}
+
+/* 메인 탐방일지 읽기 */
+.main_pop_visit1 {width:800px;/* height:526px; */padding-bottom:20px;border:3px solid #5b9bc7;background:#fff;}/*0906수정*/
+.main_pop_visit1 .pop_visit_title {position:relative;}
+.main_pop_visit1 .pop_visit_title .h2_visit {padding-top:20px;padding-left:26px;padding-bottom:15px;font-size:18px;font-weight:bold;color:#000000;}
+.main_pop_visit1 .pop_visit_title a {position:absolute;right:15px;top:0px;}
+.main_pop_visit1 .pop_visit_content {padding:0 15px 0 20px;}
+.main_pop_visit1 .pop_visit_content table {border-top:2px solid #727272; width:100%;}
+.main_pop_visit1 .pop_visit_content table th {padding-left:10px;font-weight:normal;height:34px;text-align:left;color:#636363;background:#f7f7f7;border-left:1px solid #d2d2d2;border-right:1px solid #d2d2d2;border-bottom:1px solid #d2d2d2;}
+.main_pop_visit1 .pop_visit_content table td {padding:5px 7px 5px 6px;border-left:1px solid #d9d9d9;border-right:1px solid #d9d9d9;border-bottom:1px solid #d9d9d9;}
+.main_pop_visit1 .pop_visit_content table td .inp346 {margin-top:5px;}
+.main_pop_visit1 .pop_visit_content table td textarea {resize:none;}
+.main_pop_visit1 .pop_visit_content table td span {font-size:11px;color:#646464;padding-top:5px;}
+.main_pop_visit1 .pop_visit_content table td input,
+.main_pop_visit1 .pop_visit_content table td img {vertical-align:middle;}
+.main_pop_visit1 .pop_visit_content p {text-align:left;padding-top:0px;}
+
+.visiter_talk {padding-left:17px;margin-top:9px;border:1px solid #f0f0f0;background:#f9f9f9;}
+.visiter_talk .visiter_write {background:url("/portal/images/inc/bg_td.gif") repeat-x left bottom;padding:9px 0;}
+.visiter_talk .visiter_write span {padding-left:8px;padding-right:5px;}
+.visiter_talk .visiter_write label,
+.visiter_talk .visiter_write input,
+.visiter_talk .visiter_write img {vertical-align:middle;}
+.visiter_talk ul {padding:10px 0 13px 8px;}
+.visiter_talk ul li {line-height:20px;}
+.visiter_talk ul li .sp_num {padding-right:8px;}
+.visiter_talk ul li .sp_writer {padding-right:13px;}
+.visiter_talk ul li .sp_desc {}
+.visiter_talk ul li span,
+.visiter_talk ul li img {vertical-align:middle;}
+
+
+/* 2013.09.11 수정 설악산국립공원 탐방안내도 - 탐방페이지  */
+.pop_visit_info {position:relative;position:absolute;left:15%;top:35%;border:3px solid #5b9bc7;width:929px;height:693px;display:none;background:#ffffff;}
+.pop_visit_info a {position:absolute;right:0px;top:0px;}
+/* //2013.09.11 수정 설악산국립공원 탐방안내도 - 탐방페이지  */
+
+/* 기상확인 - 레이어팝업 */
+.pop_weather {position:relative;border:3px solid #5b9bc7;/*width:760px;*/height:575px;padding-left:16px;padding-right:16px;background:#fff;}
+.pop_weather a {position:absolute;right:16px;top:0;}
+.pop_weather h1 {padding-left:5px;color:#000000;font-size:14px;font-weight:bold;padding-top:27px;padding-bottom:13px;border-bottom:1px solid #ebebeb;}
+.pop_weather .pop_play_movie {position:relative;margin-top:22px;margin-bottom:22px;border:0px solid #a4a4a4;}
+.pop_weather .pop_play_movie a {position:absolute;left:47%;top:40%;}
+
+/* 기상특보 발표 팝업 */
+#popup_layer {position:absolute;padding:5px 0 0 5px; background:#fff}
+#popup_layer .pop {position:relative;width:452px;height:268px;background:#fff url("/portal/images/popup/bg_pop1.gif") no-repeat;}
+#popup_layer .pop .sp_popup {position:absolute;right:35px;top:30px;}
+#popup_layer .pop .pop_desc {position:absolute;left:35px;top:140px;width:370px;height:80px;}
+#popup_layer .pop .pop_desc .p_danger {background:url("/portal/images/popup/bg_danger.gif") no-repeat left center;color:#666666;font-size:13px;padding:8px 0 8px 28px;}
+#popup_layer .pop textarea{width:100%;height:100%}
+
+
+.last {border-right:none;}
+
+
+/* 레이어팝업 관련 */
+#mask {position:absolute;z-index:9000;background-color:#000;display:none;left:0;top:0;} 
+	.window1{display: none;position:absolute;left:30%;top:20%;z-index:10000;}
+	.window2{display: none;position:absolute;left:30%;top:20%;z-index:10000;}
+	.window3{display: none;position:absolute;left:30%;top:20%;z-index:10000;}
+	.window4{display: none;position:absolute;left:30%;top:20%;z-index:10000;}

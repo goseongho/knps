@@ -1,0 +1,29 @@
+
+/*통제정보 추가*/
+.control_info{margin-left:14px; width:355px; float:left; }
+.control_info table{width:100%;border-top:1px solid #54be78; font-size:12px !important;}
+.control_info th {border-bottom:1px solid #e6e6e6;background:#f8f8f8;padding:8px 0 9px 0;color:#646464;border-right:1px solid #e6e6e6;}
+.control_info td {text-align:center;;border-bottom:1px solid #e6e6e6;border-right:1px solid #e6e6e6;padding:9px 0;}
+
+.control_info td .td_left22{text-align:left;padding-left:15px;padding-right:15px;}
+.control_info td .td_total{background-color:#fff3cc;font-weight:bold;}
+
+.control_info_viwe{margin-left:14px; width:100%; float:left; }
+.control_info_viwe table{width:100%;border-top:1px solid #54be78; font-size:12px !important;}
+.control_info_viwe th {border-bottom:1px solid #e6e6e6;background:#f8f8f8;padding:8px 0 9px 0;color:#646464;border-right:1px solid #e6e6e6;}
+.control_info_viwe td {text-align:center;;border-bottom:1px solid #e6e6e6;border-right:1px solid #e6e6e6;padding:9px 10px;}
+
+
+
+
+
+
+
+
+.td_left{text-align:left !important;}
+.control_01{ color:#ff0000; font-weight:700}
+.control_02{ color:#c77c0c; font-weight:700}
+
+.control_comment {clear: both; padding:5px 0px;}
+.control_btn {clear: both; padding:20px 0px; text-align:center}
+.control_btn a {padding:10px 20px;  background:#333; color: #fff}

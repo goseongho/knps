@@ -1,0 +1,496 @@
+/*
+$(function(){
+	// Chrome에서 Skip네비게이션 
+    $("a[href^='#']").click(function(event){
+        var anchorid = $(event.currentTarget);
+        var select_id = $(anchorid.attr("href"));
+        select_id.attr("tabindex","-1").css("outline","0").focus();
+        select_id.focusout(function(){
+            $(this).removeAttr("tabindex");
+        });
+    });
+});
+*/
+$( document ).ready(function() {
+	  // Handler for .ready() called.
+});
+//공원 전체 메뉴f
+function common_menu(){
+	$(".bg_lnbsub").hide();
+	$("#lnb li div").hide();	
+	$("#lnb li").removeClass("on");
+
+	$("#lnb>li").bind("mouseenter", function(){
+		var iIdx = $('#lnb>li').index($(this));	
+		$(".bg_lnbsub").show();
+		$("#lnb li div").slideDown(300);
+		$("#lnb>li").each(function(index){
+			if(iIdx==index) $(this).addClass('on');
+			else $(this).removeClass('on');
+		});
+	});
+	$("#lnb").mouseleave(function(){
+		$("#lnb li div").hide();
+		$(".bg_lnbsub").hide();
+		
+		$("#lnb li").removeClass("on");
+	});	
+	
+	
+	$("#lnb>li").bind("focusin", function(){
+		var iIdx = $('#lnb>li').index($(this));	
+		$(".bg_lnbsub").show();
+		$("#lnb li div").slideDown(300);
+		$("#lnb>li").each(function(index){
+			if(iIdx==index) $(this).addClass('on');
+			else $(this).removeClass('on');
+		});
+	});
+	$("#lnb ul>li:last").focusout(function(){
+		$("#lnb li div").hide();
+		$(".bg_lnbsub").hide();
+		$("#lnb li").removeClass("on");
+	});
+	
+}
+
+//공원 전체 메뉴
+function common_menu2(){
+	$(".bg_lnbsub02").hide();
+	$("#lnb02 li div").hide();	
+	$("#lnb02 li").removeClass("on");
+
+	$("#lnb02>li").bind("mouseenter", function(){
+		var iIdx = $('#lnb02>li').index($(this));		
+		$(".bg_lnbsub02").show();
+		$("#lnb02 li div").slideDown(350);
+		
+		
+		$("#lnb02>li").each(function(index){
+			if(iIdx==index) $(this).addClass('on');
+			else $(this).removeClass('on');
+		});
+	});	
+	$("#lnb02").mouseleave(function(){
+		$(".bg_lnbsub02").hide();
+		$("#lnb02 li div").hide();
+		$("#lnb02 li").removeClass("on");
+	});
+	
+	$("#lnb02>li").bind("focusin", function(){
+		var iIdx = $('#lnb02>li').index($(this));		
+		$(".bg_lnbsub02").show();
+		$("#lnb02 li div").slideDown(350);
+		$("#lnb02>li").each(function(index){
+			if(iIdx==index) $(this).addClass('on');
+			else $(this).removeClass('on');
+		});
+	});	
+	$("#lnb02 ul>li:last").focusout(function(){
+		$(".bg_lnbsub02").hide();
+		$("#lnb02 li div").hide();
+		$("#lnb02 li").removeClass("on");
+	});
+}
+
+function GetURLParameter(sParam)
+{
+    var sPageURL = window.location.search.substring(1);
+    var sURLVariables = sPageURL.split('&');
+    for (var i = 0; i < sURLVariables.length; i++) 
+    {
+        var sParameterName = sURLVariables[i].split('=');
+        if (sParameterName[0] == sParam) 
+        {
+            return sParameterName[1];
+        }
+    }
+}
+
+function markPopupE(code) {
+	return dcPopup('//www.eprivacy.or.kr/seal/mark.jsp?mark=e&code='+ code, 'seal', 500, 700);		
+}
+
+function markPopupI(code) {
+	return dcPopup('//www.eprivacy.or.kr/seal/mark.jsp?mark=i&code='+ code, 'seal', 500, 700);		
+}
+
+function dcPopup(url, name, w, h) {
+	var x = (screen.availWidth  / 2) - (w/2);
+	var y = (screen.availHeight / 2) - (h/2);
+	return window.open(url, name, "toolbar=no,resizable=yes,scrollbars=yes,status=no,location=no,left="+ x + ",top=" + y + ",width=" + w + ",height="+ h);
+}
+
+
+
+
+
+/* 
+ * 공용js 처리
+ */
+jQuery(document).ready(function($) {
+	$.fn.center = function () {
+		this.css("position", "absolute");
+		this.css("top", ($(window).height() - this.height()) / 2 + $(window).scrollTop() + "px");
+		this.css("left", ($(window).width() - this.width()) / 2 + $(window).scrollLeft() + "px");
+		return this;
+	};	
+	
+	
+	/* ---------------------------------------------------- */
+	/* 달력셋팅 처리
+	/* ---------------------------------------------------- */
+	(function() {
+		/**
+		 * UI datepicker 한글 지정, 기본포맷지정
+		 */		
+		$(function(a) {
+			try{
+				a.datepicker.regional.ko={closeText:"닫기",prevText:"이전달",nextText:"다음 달",currentText:"오늘",monthNames:["1월","2월","3월","4월","5월","6월","7월","8월","9월","10월","11월","12월"],monthNamesShort:["1월","2월","3월","4월","5월","6월","7월","8월","9월","10월","11월","12월"],dayNames:["일","월","화","수","목","금","토"],dayNamesShort: ["일","월","화","수","목","금","토"],dayNamesMin:["일","월","화","수","목","금"," 토"],dateFormat:"yy-mm-dd",firstDay:0,isRTL:false};
+				a.datepicker.setDefaults(a.datepicker.regional.ko);
+			}catch (e){}
+		});
+		
+		// 달력 이미지 지정
+		if($('#start_date').length > 0) {
+			$('#start_date').datepicker({showOn: 'both', buttonImage: '/admin/images/ico_calendar.gif', buttonImageOnly: true, dateFormat: 'yymmdd'});
+		}
+		if($('#end_date').length > 0) {
+			$('#end_date').datepicker({showOn: 'both', buttonImage: '/admin/images/ico_calendar.gif', buttonImageOnly: true, dateFormat: 'yymmdd'});
+		}
+
+		// 날짜 선택시 해당 일자로 셋팅한다.
+		$("input:radio[name='select_date'],[name='select_date']").on('click', function() {
+			switch(this.id) {
+				case 'today' :  
+					$('#start_date').val(getDate(0));			
+					$('#end_date').val(getDate(0));
+					break;
+				case '1week' :  
+					$('#start_date').val(getDate(7));
+					$('#end_date').val(getDate(0));
+					break;
+				case '1month' : 
+					$('#start_date').val(getDate(30));
+					$('#end_date').val(getDate(0));
+					break;
+				case 'all' : 
+					$('#start_date').val('');
+					$('#end_date').val('');
+					break;					
+				default :
+					$('#start_date').val(getDate(0));
+					$('#end_date').val(getDate(0));
+					break;
+			}
+		});
+		
+		$("div.ui-datepicker").css('fontSize','12px');
+		$("img.ui-datepicker-trigger").css('paddingLeft','5px');
+	})();
+	/* 달력셋팅 끝 */
+	
+	/* ---------------------------------------------------- */
+	/* 리스트 체크박스 전체선택/해제 기능
+	/* ---------------------------------------------------- */	
+	(function() {
+		$("#checkAll").click(function() {
+			$(".check").prop('checked', $(this).is(":checked"));
+		});
+	})();
+	/* 리스트 체크박스 전체선택/해제 기능 끝*/
+	
+	/* ---------------------------------------------------- */
+	/* 국립공원탐방 각종 탭 처리
+	/* ---------------------------------------------------- */
+	(function() {
+		$park_menu = $("ul.park_menu li > a"); 
+		$park_menu.on("click", function(){
+			$park_menu.removeClass();
+			$(this).addClass("on");
+		});
+		
+		$now_menu = $("ul.now_menu li > a"); 
+		$now_menu.on("click", function(){
+			$now_menu.removeClass();
+			$(this).addClass("on");
+		});
+		
+		$p_parkMenu = $("div.p_parkMenu li > a"); 
+		$p_parkMenu.on("click", function(){
+			$p_parkMenu.removeClass();
+			$(this).addClass("on");
+		});
+		
+		$p_visitMenu = $("div.p_visitMenu li > a"); 
+		$p_visitMenu.on("click", function(){
+			$p_visitMenu.removeClass();
+			$(this).addClass("on");
+		});
+		
+		$park_menu = $(".park_notice h3 a"); 
+		$park_menu.on("click focus", function(){
+			$park_menu.removeClass();
+			$(this).addClass("on");
+		});
+		
+		$now_menu = $(".park_now h3 a"); 
+		$now_menu.on("click focus", function(){
+			$now_menu.removeClass();
+			$(this).addClass("on");
+		});		
+	})();
+	/* 국립공원탐방 각종 탭 처리  끝*/
+	
+	var editGuide  = "한글에서 붙여넣기를 하신 후에는 반드시 폰트 및 표 조정을 해주셔야 합니다.<br/>";
+	editGuide	+=" - 전체 글자는 9pt,  줄간격은 180% 로 해주십시요.<br/>";
+	editGuide	+=" - 표는 붙여넣기를 한후에 표경계선에 마우스를 대고 길이를 약간 조정하셔야 합니다.</br>";
+		
+	$("#editFontGuide").html(editGuide);
+});
+
+/**
+ * 자바스크립트 Date 객체를 Time 스트링으로 변환
+ * parameter date: JavaScript Date Object
+ */
+function toTimeString(date) {
+	var year  = date.getFullYear();
+	var month = date.getMonth() + 1; // 1월=0,12월=11이므로 1 더함
+	var day   = date.getDate();
+
+	if (("" + month).length == 1) {month = "0" + month;}
+	if (("" + day).length   == 1) {day   = "0" + day;}
+
+	return ("" + year + month + day);
+}
+
+/**
+ * 현재 시각을 Time 형식으로 리턴
+ */
+function getCurrentTime(date) {
+	return toTimeString(new Date(date));
+}
+
+/**
+ * 현재 年을 YYYY형식으로 리턴
+ */
+function getYear(date) {
+	return getCurrentTime(date).substr(0,4);
+}
+
+/**
+ * 현재 月을 MM형식으로 리턴
+ */
+function getMonth(date) {
+	return getCurrentTime(date).substr(4,2);
+}
+
+/**
+ * 현재 日을 DD형식으로 리턴
+ */
+function getDay(date) {
+	return getCurrentTime(date).substr(6,2);
+}
+
+/**
+ * 현재 날짜를 YYYY-MM-DD형식으로 리턴
+ */
+function getDate(day) {
+	var d = new Date();
+	var dt = d - day*24*60*60*1000;
+	return getYear(dt) + '' + getMonth(dt) + '' + getDay(dt);
+}
+
+/**
+ * 콤마 붙이기 함수
+ * @param value int
+ */
+function setComma(nStr) {
+	nStr += '';
+	x = nStr.split('.');
+	x1 = x[0];
+	x2 = x.length > 1 ? '.' + x[1] : '';
+	var rgx = /(\d+)(\d{3})/;
+	while (rgx.test(x1)) {
+		x1 = x1.replace(rgx, '$1' + ',' + '$2');
+	}
+	return x1 + x2;
+}
+/* ---------------------------------------------------- */
+/* 하단 > 홈 탭 처리
+/* ---------------------------------------------------- */	
+var tabcount = 3;
+function tab_view(num){
+	 for (var i=1; i<=tabcount; i++) {
+		var view_up = document.getElementById("bn_bottom0" + i);
+		if (i == num) view_up.style.display="";
+		else view_up.style.display="none";
+	 }
+}
+/* 하단 홈 > 탭 처리  끝*/
+
+/* ---------------------------------------------------- */
+/* 문자열 길이 자르기
+/* ---------------------------------------------------- */ 
+function stringCut(str, len, tail) {
+	if(str.length>len){
+		return str.substr(0, len)+tail;
+	}else{
+		return str;
+	}
+	
+}
+/* 문자열 길이 자르기 끝*/
+
+/* ---------------------------------------------------- */
+/* sns연동
+/* ---------------------------------------------------- */
+function sendSNS(type, msg, url) {
+	var a,
+    	href = "",
+    	name = "",
+    	tag = "";
+    
+    if(!url) {
+    	url = location.href;
+    }
+    
+    if(type == "twitter") {	//트위터
+    	href = "http://twitter.com/home?status=" + encodeURIComponent(msg) + " " + encodeURIComponent(url);
+    	name = "twitter";
+    } else if(type == "facebook") { //페이스북
+    	href = "http://www.facebook.com/sharer.php?u=" + encodeURIComponent(url) + "&t=" + encodeURIComponent(msg);
+    	name = "facebook";
+    } else if(type == "me2day") { //미투데이
+    	href = "http://me2day.net/posts/new?new_post[body]=" + encodeURIComponent(msg) + " " + encodeURIComponent(url) + "&new_post[tags]=" + encodeURIComponent(tag);
+    	name = "me2day";
+    }
+    
+    a = window.open(href, name, '');
+    if( a ) {
+    	a.focus();
+    }    
+}
+/* sns연동 끝*/
+
+/* ---------------------------------------------------- */
+/* 스크랩
+/* ---------------------------------------------------- */
+function scrap(frm) {
+	var f = frm;
+	//f.linkPath.value = document.location.href;
+	f.action = "/front/portal/mypage/insertScrap.do";
+	f.submit();
+}
+/* 스크랩 끝*/
+
+/* ---------------------------------------------------- */
+/* 메일발송
+/* ---------------------------------------------------- */
+function mailto(email) {
+	var url="/portal/main/email.do?email="+encodeURIComponent(email);
+	var emailWindow = window.open(url, 'email_window', 'width=760,height=735,scrollbars=no,toolbar=no,menubar=no,location=no,resizeable=no,status=no');
+	emailWindow.focus();
+}
+/* 메일발송 끝*/
+
+/* ---------------------------------------------------- */
+/* 메일발송
+/* ---------------------------------------------------- */
+function sendMailByVisit(url) {
+	var url="/portal/visit/email.do?courseUrl="+encodeURIComponent(url);
+	var emailWindow = window.open(url, 'email_window', 'width=760,height=735,scrollbars=no,toolbar=no,menubar=no,location=no,resizeable=no,status=no');
+	emailWindow.focus();
+}
+/* 메일발송 끝*/
+
+/* 첨부파일 다운로드 시작*/
+function contentsDownload(filepath, filename, filename2) {
+	filepath = escape(encodeURIComponent(filepath));
+	filename = escape(encodeURIComponent(filename));
+	filename2 = escape(encodeURIComponent(filename2));
+	location.href = "/portal/main/contentsDownloads.do?filepath="+filepath+"&filename="+filename+"&filename2="+filename2;
+	
+	return ;
+}
+
+/* 갤러리 다운로드 시작*/
+function galleryDownload(filepath, filename, filename2, contestId) {
+	filepath = escape(encodeURIComponent(filepath));
+	filename = escape(encodeURIComponent(filename));
+	filename2 = escape(encodeURIComponent(filename2));
+	location.href = "/front/portal/contest/galleryDown.do?filepath="+filepath+"&filename="+filename+"&filename2="+filename2+"&contestId="+contestId;
+	
+	return ;
+}
+/* 첨부파일 다운로드 끝*/
+
+function pagePrint(name) { 
+	Obj = document.getElementById(name);
+	var container = 'container';
+	if(name == 'contents02') container = 'container_t02'; 
+    var W = Obj.offsetWidth+50;        //screen.availWidth; 
+    var H = Obj.offsetHeight;       //screen.availHeight;
+
+    var features = "menubar=no,toolbar=no,location=no,directories=no,status=no,scrollbars=yes,resizable=yes,width=" + W + ",height=" + H + ",left=0,top=0"; 
+    var PrintPage = window.open("about:blank",Obj.id,features); 
+
+    PrintPage.document.open();
+    PrintPage.document.write("<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Transitional//EN\" \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd\">");
+    PrintPage.document.write("<html><head><title></title><link rel='stylesheet' type='text/css' href='/portal/css/style.css' /><style type='text/css'>body, tr, td, input, textarea { font-family:Tahoma; font-size:9pt; }</style>\n</head>\n<body>" +
+    		"<div id='container' class='"+container+"' style='width:105%; background-image:none;'><div id='"+name+"' style='padding-right:0px;'>" + Obj.innerHTML + "\n</div></div></body></html>"); 
+    PrintPage.document.close(); 
+
+    PrintPage.document.title = document.domain; 
+    //PrintPage.print(PrintPage.location.reload());
+    //PrintPage.location.reload();
+    PrintPage.print();
+}
+
+function setCookie (name, value, expires) {
+  document.cookie = name + "=" + escape (value) + "; path=/; expires=" + expires.toGMTString();
+}
+
+function getCookie(Name) {
+  var search = Name + "=";
+  if (document.cookie.length > 0) { // 쿠키가 설정되어 있다면
+    var offset = document.cookie.indexOf(search);
+    if (offset != -1) { // 쿠키가 존재하면
+      offset += search.length;
+
+      end = document.cookie.indexOf(";", offset);
+      // 쿠키 값의 마지막 위치 인덱스 번호 설정
+      if (end == -1)
+        end = document.cookie.length;
+      return unescape(document.cookie.substring(offset, end));
+    }
+  }
+  return 0;
+}
+
+function deleteCookie(cookieName) {
+    var expireDate = new Date();
+
+    //어제 날짜를 쿠키 소멸 날짜로 설정한다.
+    expireDate.setDate( expireDate.getDate() - 1 );
+    document.cookie = cookieName + "= " + "; expires=" + expireDate.toGMTString() + "; path=/";
+}
+
+function regexEscape(str) {
+	return str.replace(/([.?*+^$[\]\\(){}|-])/g, "\\$1");
+	//return str.replace("<", "\&lt;").replace(">", "\&rt;");
+}
+
+
+function getTextLength(str) {
+    var len = 0;
+    for (var i = 0; i < str.length; i++) {
+        if (escape(str.charAt(i)).length == 6) {
+            len++;
+        }
+        len++;
+    }
+    return len;
+}
+
+

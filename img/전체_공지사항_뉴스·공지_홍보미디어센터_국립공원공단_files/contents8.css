@@ -1,0 +1,29 @@
+@charset "utf-8";
+
+/* 책임경영 */
+.table_majoract{width:100%;border-top:1px solid #4599d0;}
+.table_majoract th{color:#646464;border-right:1px solid #e6e6e6;border-bottom:1px solid #e6e6e6;padding:10px 0 12px 0;background-color:#f8f8f8;}
+.table_majoract td{color:#646464;border-bottom:1px solid #e6e6e6;padding:10px 0 12px 0;text-align:center;}
+
+.sect_majoract{margin-bottom:0px;}
+.major_inner{overflow:hidden;margin-bottom:30px;}
+.major_inner .img{float:left;}
+.major_inner .txt{float:right;width:578px;}
+.major_inner .in{overflow:hidden;margin-bottom:5px;}
+.major_inner .txt h5{color:#646464;margin-bottom:5px;padding-left:10px;background:url("/portal/images/inc/blet_gray.gif") no-repeat 0 8px;font-weight:bold;}
+.major_inner .txt p{color:#646464;padding-left:10px;}
+.major_inner .txt p.mb{margin-bottom:15px;}
+.sect_majoract .txt_voluwork{color:#646464;padding-left:13px;margin-bottom:40px;}
+
+.box_voluwork{position:relative;width:716px;height:241px;margin-left:14px;background:url("/portal/images/contents/bg_voluwork.gif") no-repeat 0 0;}
+.box_voluwork .tit_volu1{color:#333;padding:14px 0 0 19px;}
+.box_voluwork .tit_volu2{position:absolute;left:595px;top:14px;}
+.box_voluwork .txt_volu1{position:absolute;left:266px;top:34px;}
+.box_voluwork .txt_volu2{position:absolute;left:74px;top:97px;}
+.box_voluwork .txt_volu3{position:absolute;left:254px;top:89px;}
+.box_voluwork .txt_volu3_1{position:absolute;left:66px;top:174px;}
+.box_voluwork .txt_volu3_2{position:absolute;left:151px;top:174px;}
+.box_voluwork .txt_volu3_3{position:absolute;left:246px;top:174px;}
+.box_voluwork .txt_volu3_4{position:absolute;left:368px;top:174px;}
+.box_voluwork .txt_volu3_5{position:absolute;left:455px;top:174px;}
+.box_voluwork .txt_volu4{position:absolute;left:604px;top:88px;}

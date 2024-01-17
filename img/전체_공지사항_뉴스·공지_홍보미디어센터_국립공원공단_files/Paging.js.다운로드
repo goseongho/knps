@@ -1,0 +1,223 @@
+var	AdminPaging = function(totalCount,currentPage,pageRows,func){
+	this.pageCount = 10;
+	this.totalCount = parseInt(totalCount,10) || 0;
+	this.currentPage = parseInt(currentPage,10) || 1;
+	this.pageRows = parseInt(pageRows,10) || 10;
+	this.func = func || "goPage";
+	this.prevBtn = '<img src="/admin/images/paging_prev.gif" alt="이전 페이지" />';
+	this.prev10Btn = '<img src="/admin/images/paging_first.gif" alt="처음 페이지" />';
+	this.nextBtn = '<img src="/admin/images/paging_next.gif" alt="다음 페이지" />';
+	this.next10Btn = '<img src="/admin/images/paging_last.gif" alt="마지막 페이지" />';
+};
+AdminPaging.prototype={
+	getStartPage:function(){
+		return parseInt((this.currentPage-1)/this.pageCount,10)*this.pageCount+1;
+	},
+	getEndPage:function(){
+		return Math.ceil(this.totalCount/this.pageRows);
+	},
+	getPageNum:function(){
+		var	stP = this.getStartPage();
+		var laP = this.getEndPage();
+		var eP = stP + (this.pageCount-1);
+		return {
+			start:stP,
+			end:eP > laP ? laP : eP,
+			last : laP
+		};
+	},
+	makeHTML : function(){
+		var pageNum = this.getPageNum();
+		var start = pageNum.start;
+		var end  = pageNum.end;
+		var last = pageNum.last;
+		var pageStr = '';
+		if(this.currentPage > this.pageCount) pageStr += '<a href="javascript:'+this.func+'(1);" class="pre_end">'+this.prev10Btn+'</a>\n';
+		if(this.currentPage > this.pageCount) pageStr += '<a href="javascript:'+this.func+'('+(this.currentPage-1)+');" class="pre">'+this.prevBtn+'</a>\n';
+		for( var i = start; i <= end ; i++ ){
+			if(i == this.currentPage)
+				pageStr += '<strong>'+i+'</strong>';
+			else
+				pageStr += '<a href="javascript:'+this.func+'('+i+');">'+i+'</a>';
+			if(i < end) pageStr += '<span>/</span>\n';
+		}
+		if(end < last) pageStr += '<a href="javascript:'+this.func+'('+(end+1)+');" class="next1">'+this.nextBtn+'</a>\n';
+		if(end < last) pageStr += '<a href="javascript:'+this.func+'('+(last)+');" class="next_end">'+this.next10Btn+'</a>\n';
+		return pageStr;
+	},
+	print:function(){
+		document.write(this.makeHTML());
+	},
+	getHTML: function(){
+		return this.makeHTML();
+	}
+};
+
+
+
+var	FrontPaging2 = function(totalCount,currentPage,pageRows,func){
+	this.pageCount = 10;
+	this.totalCount = parseInt(totalCount,10) || 0;
+	this.currentPage = parseInt(currentPage,10) || 1;
+	this.pageRows = parseInt(pageRows,10) || 10;
+	this.func = func || "goPage";
+	this.prevBtn = '<img src="/portal/images/inc/btn_prev.gif" alt="이전 페이지" />';
+	this.prev10Btn = '<img src="/portal/images/inc/btn_first.gif" alt="처음 페이지" />';
+	this.nextBtn = '<img src="/portal/images/inc/btn_next.gif" alt="다음 페이지" />';
+	this.next10Btn = '<img src="/portal/images/inc/btn_end.gif" alt="마지막 페이지" />';
+};
+FrontPaging2.prototype={
+	getStartPage:function(){
+		return parseInt((this.currentPage-1)/this.pageCount,10)*this.pageCount+1;
+	},
+	getEndPage:function(){
+		return Math.ceil(this.totalCount/this.pageRows);
+	},
+	getPageNum:function(){
+		var	stP = this.getStartPage();
+		var laP = this.getEndPage();
+		var eP = stP + (this.pageCount-1);
+		return {
+			start:stP,
+			end:eP > laP ? laP : eP,
+			last : laP
+		};
+	},
+	makeHTML : function(){
+		var pageNum = this.getPageNum();
+		var start = pageNum.start;
+		var end  = pageNum.end;
+		var last = pageNum.last;
+		var pageStr = '';
+		if(this.currentPage > this.pageCount) pageStr += '<a href="javascript:'+this.func+'(1);" class="pre_end" title="첫 페이지">'+this.prev10Btn+'</a>\n';
+		if(this.currentPage > this.pageCount) pageStr += '<a href="javascript:'+this.func+'('+(this.currentPage-1)+');" class="pre" title="이전 페이지">'+this.prevBtn+'</a>\n';
+		for( var i = start; i <= end ; i++ ){
+			if(i == this.currentPage)
+				pageStr += '<li class="num"><a href="javascript:'+this.func+'('+i+');" class="on" title="현재 '+i+'페이지">'+i+'</a></li>';
+			else
+				pageStr += '<li class="num"><a href="javascript:'+this.func+'('+i+');" title="'+i+'페이지">'+i+'</a></li>'
+		}
+		if(end < last) pageStr += '<a href="javascript:'+this.func+'('+(end+1)+');" class="next1" title="다음 페이지">'+this.nextBtn+'</a>\n';
+		if(end < last) pageStr += '<a href="javascript:'+this.func+'('+(last)+');" class="next_end" title="마지막 페이지">'+this.next10Btn+'</a>\n';
+		return pageStr;
+	},
+	print:function(){
+		document.write(this.makeHTML());
+	},
+	getHTML: function(){
+		return this.makeHTML();
+	}
+};
+
+
+var	FrontPaging = function(totalCount,currentPage,pageRows,func){
+	this.pageCount = 10;
+	this.totalCount = parseInt(totalCount,10) || 0;
+	this.currentPage = parseInt(currentPage,10) || 1;
+	this.pageRows = parseInt(pageRows,10) || 10;
+	this.func = func || "goPage";
+	this.prevBtn = '<img src="/portal/images/inc/btn_prev.gif" alt="이전 페이지" />';
+	this.prev10Btn = '<img src="/portal/images/inc/btn_first.gif" alt="처음 페이지" />';
+	this.nextBtn = '<img src="/portal/images/inc/btn_next.gif" alt="다음 페이지" />';
+	this.next10Btn = '<img src="/portal/images/inc/btn_end.gif" alt="마지막 페이지" />';
+};
+FrontPaging.prototype={
+	getStartPage:function(){
+		return parseInt((this.currentPage-1)/this.pageCount,10)*this.pageCount+1;
+	},
+	getEndPage:function(){
+		return Math.ceil(this.totalCount/this.pageRows);
+	},
+	getPageNum:function(){
+		var	stP = this.getStartPage();
+		var laP = this.getEndPage();
+		var eP = stP + (this.pageCount-1);
+		return {
+			start:stP,
+			end:eP > laP ? laP : eP,
+			last : laP
+		};
+	},
+	makeHTML : function(){
+		var pageNum = this.getPageNum();
+		var start = pageNum.start;
+		var end  = pageNum.end;
+		var last = pageNum.last;
+		var pageStr = '';
+
+		if(this.currentPage > this.pageCount) pageStr += '<a href="javascript:'+this.func+'(1);" class="btn1" title="첫 페이지">'+this.prev10Btn+'</a>\n';
+		if(this.currentPage > this.pageCount) pageStr += '<a href="javascript:'+this.func+'('+(this.currentPage-1)+');" class="btn1" title="이전 페이지">'+this.prevBtn+'</a>\n';
+		for( var i = start; i <= end ; i++ ){
+			if(i == this.currentPage)
+				pageStr += '<a href="javascript:'+this.func+'('+i+');" class="num on" title="현재'+i+'페이지">'+i+'</a>\n';
+			else
+				pageStr += '<a href="javascript:'+this.func+'('+i+');" title="'+i+'페이지">'+i+'</a>\n'
+		}
+		if(end < last) pageStr += '<a href="javascript:'+this.func+'('+(end+1)+');" class="btn1 btn2" title="다음 페이지">'+this.nextBtn+'</a>\n';
+		if(end < last) pageStr += '<a href="javascript:'+this.func+'('+(last)+');" title="마지막 페이지">'+this.next10Btn+'</a>\n';
+		return pageStr;
+	},
+	print:function(){
+		document.write(this.makeHTML());
+	},
+	getHTML: function(){
+		return this.makeHTML();
+	}
+};
+
+
+
+var	UserPaging = function(totalCount,currentPage,pageRows,func){
+	this.pageCount = 5;
+	this.totalCount = parseInt(totalCount,10) || 0;
+	this.currentPage = parseInt(currentPage,10) || 1;
+	this.pageRows = parseInt(pageRows,10) || 10;
+	this.func = func || "goPage";
+	this.prevBtn = '<img src="/portal/images/inc/btn_prev.gif" alt="이전 페이지" />';
+	this.prev10Btn = '<img src="/portal/images/inc/btn_first.gif" alt="처음 페이지" />';
+	this.nextBtn = '<img src="/portal/images/inc/btn_next.gif" alt="다음 페이지" />';
+	this.next10Btn = '<img src="/portal/images/inc/btn_end.gif" alt="마지막 페이지" />';
+};
+UserPaging.prototype={
+	getStartPage:function(){
+		return parseInt((this.currentPage-1)/this.pageCount,10)*this.pageCount+1;
+	},
+	getEndPage:function(){
+		return Math.ceil(this.totalCount/this.pageRows);
+	},
+	getPageNum:function(){
+		var	stP = this.getStartPage();
+		var laP = this.getEndPage();
+		var eP = stP + (this.pageCount-1);
+		return {
+			start:stP,
+			end:eP > laP ? laP : eP,
+			last : laP
+		};
+	},
+	makeHTML : function(){
+		var pageNum = this.getPageNum();
+		var start = pageNum.start;
+		var end  = pageNum.end;
+		var last = pageNum.last;
+		var pageStr = '';
+
+		if(this.currentPage > this.pageCount) pageStr += '<a href="javascript:'+this.func+'(1);" class="btn1" title="첫 페이지">'+this.prev10Btn+'</a>\n';
+		if(this.currentPage > this.pageCount) pageStr += '<a href="javascript:'+this.func+'('+(this.currentPage-1)+');" class="btn1" title="이전 페이지">'+this.prevBtn+'</a>\n';
+		for( var i = start; i <= end ; i++ ){
+			if(i == this.currentPage)
+				pageStr += '<a href="javascript:'+this.func+'('+i+');" class="num on" title="현재'+i+'페이지">'+i+'</a>\n';
+			else
+				pageStr += '<a href="javascript:'+this.func+'('+i+');" title="'+i+'페이지">'+i+'</a>\n'
+		}
+		if(end < last) pageStr += '<a href="javascript:'+this.func+'('+(end+1)+');" class="btn1 btn2" title="다음 페이지">'+this.nextBtn+'</a>\n';
+		if(end < last) pageStr += '<a href="javascript:'+this.func+'('+(last)+');" title="마지막 페이지">'+this.next10Btn+'</a>\n';
+		return pageStr;
+	},
+	print:function(){
+		document.write(this.makeHTML());
+	},
+	getHTML: function(){
+		return this.makeHTML();
+	}
+};
