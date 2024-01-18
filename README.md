@@ -1,22 +1,13 @@
-<!-- info -->
-### :knps: Welcome!
-
-  
-</div>
-
-- This is my FIRST PROJECT
-- Full Stack developed
-
-------
-<!-- Language logo-->
-### Main Lanauage
-<img src="https://img.shields.io/badge/java-%23007396.svg?&style=for-the-badge&logo=java&logoColor=white" /> <img src="https://img.shields.io/badge/javascript-%23F7DF1E.svg?&style=for-the-badge&logo=javascript&logoColor=black" />
-
-### Develop Engine
-<img src="https://img.shields.io/badge/node.js-%23339933.svg?&style=for-the-badge&logo=node.js&logoColor=white" />
-
-### Publish
-<img src="https://img.shields.io/badge/amazon%20aws-%23232F3E.svg?&style=for-the-badge&logo=amazon%20aws&logoColor=white" />
-
+<div align= "center">
+    <img src="https://capsule-render.vercel.app/api?type=cylinder&color=gradient&height=120&text=KNPS%20RENEWAL&animation=fadeIn&fontColor=ffffff&fontSize=50" />
+    </div>
+    <div style="text-align: left;">
+    <h2 style="border-bottom: 1px solid #21262d; color: #c9d1d9;"> 🛠️ Tech Stacks </h2> <br> 
+    <div style="margin: ; text-align: left;" "text-align: left;"> <img src="https://img.shields.io/badge/Javascript-F7DF1E?style=for-the-badge&logo=Javascript&logoColor=white">
+          <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=HTML5&logoColor=white">
+          <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=CSS3&logoColor=white">
+          </div>
+    </div>
+    
 ![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=goseongho&show_icons=true&theme=radical)
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=goseongho&layout=compact)](https://github.com/goseongho/github-readme-stats)
