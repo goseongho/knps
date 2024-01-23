@@ -3,7 +3,7 @@
     </div>
 ## 작업자 : 고성호
 ## 제작기간 : 
-## 🛠️ Tech Stacks [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=goseongho&layout=compact)](https://github.com/goseongho/github-readme-stats)
+## 🛠️ Tech Stacks
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=goseongho&layout=compact)](https://github.com/goseongho/github-readme-stats) <br>  <br>
   <img src="https://img.shields.io/badge/CSS3-1572B6?style=flat&logo=CSS3&logoColor=white">
           <img src="https://img.shields.io/badge/Javascript-F7DF1E?style=flat&logo=Javascript&logoColor=white">
@@ -14,3 +14,4 @@
 
     
 
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=goseongho&layout=compact)](https://github.com/goseongho/github-readme-stats)
