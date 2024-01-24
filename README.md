@@ -24,7 +24,7 @@
 
 | 섹션1 : 메인비주얼                                                                                                      |
 | :---------------------------------------------------------------------------------------------------------------------- |
-| |
+|<img src="https://private-user-images.githubusercontent.com/152961741/299141234-fc3cdabd-af15-46fc-9440-6f15e551d813.gif?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MDYwNTcxNzAsIm5iZiI6MTcwNjA1Njg3MCwicGF0aCI6Ii8xNTI5NjE3NDEvMjk5MTQxMjM0LWZjM2NkYWJkLWFmMTUtNDZmYy05NDQwLTZmMTVlNTUxZDgxMy5naWY_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjQwMTI0JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI0MDEyNFQwMDQxMTBaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT02ZDJiNTc0ZDkzYWFiYzc5OGMyMmExNzY4OGRjYjExZmIwOTlkNDcwNWMxYmUyNTU1ZTRiM2UyMTY5Y2I3OGU4JlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZhY3Rvcl9pZD0wJmtleV9pZD0wJnJlcG9faWQ9MCJ9.vLW_yHwHvmOIrpDnJEjQB1nPPB5EcOqXhgFEvw_pyyc"> |
 
 | 
 
