@@ -1,4 +1,5 @@
-## <div align= "center"> <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=240&text=공공기관%20리뉴얼%20-%20국립공원공단🏞&animation=&fontColor=f2f2f2&fontSize=40" /></div>
+## <div align= "center"><img src="https://capsule-render.vercel.app/api?type=waving&color=19803b&height=240&text=공공기관%20리뉴얼%20-%20국립공원공단🏞&animation=fadeIn&fontColor=ffffff&fontSize=40" /></div>
+    
 ## 작업자 : 고성호
 ## 제작기간 : 23일 (2024.01.02 ~ 2024.01.25) 
 ## 🛠️ Tech Stacks 
