@@ -80,4 +80,4 @@
 ## 🚀 링크
 - [브레인 스토밍](https://www.figma.com/file/FrC96QwH23NDycPOZHxtNR/%EC%95%84%EC%9D%B4%EB%94%94%EC%96%B4-%EB%B0%9C%EC%83%81?type=whiteboard&node-id=0%3A1&t=JqZNxxZnQEnvoqeU-1)
 - [와이어 프레임 및 디자인](https://www.figma.com/file/CglzQn9OcBuPz8qETrCCOl/%EA%B3%A0%EC%84%B1%ED%98%B8_%ED%8F%AC%ED%8A%B8%ED%8F%B4%EB%A6%AC%EC%98%A4?type=design&node-id=0%3A1&mode=design&t=hfG7ThC8r05vVVls-1)
-- [리뉴얼 사이트]()
+- [리뉴얼 사이트](https://goseongho.github.io/knps/)
