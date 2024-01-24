@@ -24,8 +24,16 @@
 
 | 섹션1 : 메인비주얼                                                                                                      |
 | :---------------------------------------------------------------------------------------------------------------------- |
-|<img src="https://private-user-images.githubusercontent.com/152961741/299141234-fc3cdabd-af15-46fc-9440-6f15e551d813.gif?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MDYwNTcxNzAsIm5iZiI6MTcwNjA1Njg3MCwicGF0aCI6Ii8xNTI5NjE3NDEvMjk5MTQxMjM0LWZjM2NkYWJkLWFmMTUtNDZmYy05NDQwLTZmMTVlNTUxZDgxMy5naWY_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjQwMTI0JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI0MDEyNFQwMDQxMTBaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT02ZDJiNTc0ZDkzYWFiYzc5OGMyMmExNzY4OGRjYjExZmIwOTlkNDcwNWMxYmUyNTU1ZTRiM2UyMTY5Y2I3OGU4JlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZhY3Rvcl9pZD0wJmtleV9pZD0wJnJlcG9faWQ9MCJ9.vLW_yHwHvmOIrpDnJEjQB1nPPB5EcOqXhgFEvw_pyyc"> |
+|<img src="https://private-user-images.githubusercontent.com/152961741/299146988-0b4a1c84-0602-4b02-839c-4329b325c70b.gif?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MDYwNTkzOTgsIm5iZiI6MTcwNjA1OTA5OCwicGF0aCI6Ii8xNTI5NjE3NDEvMjk5MTQ2OTg4LTBiNGExYzg0LTA2MDItNGIwMi04MzljLTQzMjliMzI1YzcwYi5naWY_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjQwMTI0JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI0MDEyNFQwMTE4MThaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT05ODQ5ZWI4MGMyNTk3Yjg2MzYzMjU3MWEyMmEzMDZiNWQyMTdkYTZjODcxZjA3ZGZmMWFlZGY5OThlYzNiYjdhJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZhY3Rvcl9pZD0wJmtleV9pZD0wJnJlcG9faWQ9MCJ9.RVgVAoBNOlUmCiIs-c3CYAnUF6qQROpFT0dZa9IQtzw"> |
 
 | 
+
+<br>
+| 섹션2 : 실시간 탐방통제정보, 공지사항, 국립공원 바로가기, 주요서비스 아이콘                                                                                               |
+| :------------------------------------------------------------------------------------------------------------------------ |
+| <img src="https://private-user-images.githubusercontent.com/152961741/299147196-5604d314-0616-407c-838f-ad3f80e7075b.gif?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MDYwNTk0NzMsIm5iZiI6MTcwNjA1OTE3MywicGF0aCI6Ii8xNTI5NjE3NDEvMjk5MTQ3MTk2LTU2MDRkMzE0LTA2MTYtNDA3Yy04MzhmLWFkM2Y4MGU3MDc1Yi5naWY_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjQwMTI0JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI0MDEyNFQwMTE5MzNaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT04MGFkMTA3MDg5OGQ5ZmQ3ZjBlZDYyZjExNTU0M2M2Njg4ZGM2MmU1ZDMzZjFiYjk5YTk0ZDk3ZWYwZmE5NTAzJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZhY3Rvcl9pZD0wJmtleV9pZD0wJnJlcG9faWQ9MCJ9.xMHoZ1d2KMWN-uwVzRiIWW7p3KVALrg2soWcnOw7R_U"> |
+
+| 현재 온라인 예약 / 사전예약으로 예매할 경우 할인이 들어가는 입장권의 종류를 나열합니다. 각각 얼만큼 할인이 되는지 이미지에 after을 주어 오른쪽 상단에 보여줍니다. 마우스 hover시 이미지의 scale이 변화하고 translateY가 변화하며 위로 올라가는 효과를 줍니다.<br>
+| 뒷배경으로 보이는 배와 물결에서 확인할 수 있듯 수면을 나타낸 것이며 이하의 영역들은 마치 바닷속을 나타내는 것과도 같습니다.
 
 <br>
