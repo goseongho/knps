@@ -2,6 +2,11 @@
     
 ## 작업자 : 고성호
 ## 제작기간 : 23일 (2024.01.02 ~ 2024.01.25) 
+## 🚀 링크
+- [브레인 스토밍](https://www.figma.com/file/FrC96QwH23NDycPOZHxtNR/%EC%95%84%EC%9D%B4%EB%94%94%EC%96%B4-%EB%B0%9C%EC%83%81?type=whiteboard&node-id=0%3A1&t=JqZNxxZnQEnvoqeU-1)
+- [와이어 프레임 및 디자인](https://www.figma.com/file/CglzQn9OcBuPz8qETrCCOl/%EA%B3%A0%EC%84%B1%ED%98%B8_%ED%8F%AC%ED%8A%B8%ED%8F%B4%EB%A6%AC%EC%98%A4?type=design&node-id=0%3A1&mode=design&t=hfG7ThC8r05vVVls-1)
+- [리뉴얼 사이트](https://goseongho.github.io/knps/)
+
 ## 🛠️ Tech Stacks 
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=goseongho&layout=compact)](https://github.com/goseongho/github-readme-stats) <br> <br>
           <img src="https://img.shields.io/badge/CSS3-1572B6?style=flat&logo=CSS3&logoColor=white">
@@ -77,8 +82,3 @@
 
 - 메인페이지의 마우스 커서 아이콘으로 로그인페이지로의 이동을 알아보기 쉽게 하였습니다.<br>
 - 왼쪽의 메인페이지 바로가기 아이콘 오른쪽의 로그인,회원가입, 아이디 찾기, 비밀번호 찾기가 있습니다.
-
-## 🚀 링크
-- [브레인 스토밍](https://www.figma.com/file/FrC96QwH23NDycPOZHxtNR/%EC%95%84%EC%9D%B4%EB%94%94%EC%96%B4-%EB%B0%9C%EC%83%81?type=whiteboard&node-id=0%3A1&t=JqZNxxZnQEnvoqeU-1)
-- [와이어 프레임 및 디자인](https://www.figma.com/file/CglzQn9OcBuPz8qETrCCOl/%EA%B3%A0%EC%84%B1%ED%98%B8_%ED%8F%AC%ED%8A%B8%ED%8F%B4%EB%A6%AC%EC%98%A4?type=design&node-id=0%3A1&mode=design&t=hfG7ThC8r05vVVls-1)
-- [리뉴얼 사이트](https://goseongho.github.io/knps/)
