@@ -30,7 +30,7 @@
 
 | 섹션1 : 메인비주얼                                                                                                      |
 | :---------------------------------------------------------------------------------------------------------------------- |
-|<img src="https://private-user-images.githubusercontent.com/152961741/299146988-0b4a1c84-0602-4b02-839c-4329b325c70b.gif?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MDYwNTkzOTgsIm5iZiI6MTcwNjA1OTA5OCwicGF0aCI6Ii8xNTI5NjE3NDEvMjk5MTQ2OTg4LTBiNGExYzg0LTA2MDItNGIwMi04MzljLTQzMjliMzI1YzcwYi5naWY_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjQwMTI0JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI0MDEyNFQwMTE4MThaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT05ODQ5ZWI4MGMyNTk3Yjg2MzYzMjU3MWEyMmEzMDZiNWQyMTdkYTZjODcxZjA3ZGZmMWFlZGY5OThlYzNiYjdhJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZhY3Rvcl9pZD0wJmtleV9pZD0wJnJlcG9faWQ9MCJ9.RVgVAoBNOlUmCiIs-c3CYAnUF6qQROpFT0dZa9IQtzw"> |
+| ![video-ezgif com-video-to-gif-converter (1)](https://github.com/goseongho/knps/assets/152961741/0b4a1c84-0602-4b02-839c-4329b325c70b) |
 
 - gnb영역 호버시 서브메뉴 다운, 두개의 슬라이드 였던것을 하나로 통일, 우측 퀵메뉴 따라다니는 효과를 줍니다.
 
@@ -38,7 +38,7 @@
 
 | 섹션2,3 : 실시간 탐방통제정보 / 공지사항, 국립공원 바로가기, 국립공원 주요서비스 아이콘                                      |
 | :------------------------------------------------------------------------------------------------------------------------ |
-| <img src="https://private-user-images.githubusercontent.com/152961741/299147196-5604d314-0616-407c-838f-ad3f80e7075b.gif?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MDYwNTk0NzMsIm5iZiI6MTcwNjA1OTE3MywicGF0aCI6Ii8xNTI5NjE3NDEvMjk5MTQ3MTk2LTU2MDRkMzE0LTA2MTYtNDA3Yy04MzhmLWFkM2Y4MGU3MDc1Yi5naWY_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjQwMTI0JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI0MDEyNFQwMTE5MzNaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT04MGFkMTA3MDg5OGQ5ZmQ3ZjBlZDYyZjExNTU0M2M2Njg4ZGM2MmU1ZDMzZjFiYjk5YTk0ZDk3ZWYwZmE5NTAzJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZhY3Rvcl9pZD0wJmtleV9pZD0wJnJlcG9faWQ9MCJ9.xMHoZ1d2KMWN-uwVzRiIWW7p3KVALrg2soWcnOw7R_U"> |
+| ![video1-ezgif com-video-to-gif-converter](https://github.com/goseongho/knps/assets/152961741/5604d314-0616-407c-838f-ad3f80e7075b) |
 
 - 실시간 탐방통제정보의 빨간색은 전면통제 주황색은 부분통제 초록색은 정상으로 한눈에 알아보기 쉽게 보여집니다.<br>
 - 국립공원 공지사항, 사무소알림, 탐방소식, 채용정보 탭메뉴, 국립공원 바로가기 지도의 국립공원 위치확인, 국립공원 주요서비스 바로가기.
@@ -47,7 +47,7 @@
 
 | 섹션4,5 : 함께즐기는 국립공원 / 국립공원 주제별 정보                                   |
 | :------------------------------------------------------------------------------------------------------------------------ |
-| <img src="https://private-user-images.githubusercontent.com/152961741/299147812-a47a09b9-b14b-4669-8180-cd9a27adcd1e.gif?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MDYwNjEwOTcsIm5iZiI6MTcwNjA2MDc5NywicGF0aCI6Ii8xNTI5NjE3NDEvMjk5MTQ3ODEyLWE0N2EwOWI5LWIxNGItNDY2OS04MTgwLWNkOWEyN2FkY2QxZS5naWY_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjQwMTI0JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI0MDEyNFQwMTQ2MzdaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT03ZDk4MGMzN2YxZWYwZTlkMTM1YmIwZDViM2RkNjgyMzFjZjUxYzk0YTgyYjgxOTk2YWJlZGY4N2ExOGY5ZmVkJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZhY3Rvcl9pZD0wJmtleV9pZD0wJnJlcG9faWQ9MCJ9.nfUVcJnEnTwqkhG4hisTLlsPXdpNwFjoL6TbVmyB8mg"> |
+| ![video2-ezgif com-video-to-gif-converter](https://github.com/goseongho/knps/assets/152961741/a47a09b9-b14b-4669-8180-cd9a27adcd1e) |
 
 - 함께즐기는 국립공원 - 함께하기, 바로가기 호버시 아이콘 왼쪽으로 이동.<br>
 - 국립공원의 주제별 정보들 바로가기.
@@ -56,7 +56,7 @@
 
 | 섹션6,7 : 국립공원 사진전 / 공지사항, 국립공원 관련기관 베너                                      |
 | :------------------------------------------------------------------------------------------------------------------------ |
-| <img src="https://private-user-images.githubusercontent.com/152961741/299147848-47a7637b-6b12-4abc-aaff-3e63301f6427.gif?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MDYwNjA2MjMsIm5iZiI6MTcwNjA2MDMyMywicGF0aCI6Ii8xNTI5NjE3NDEvMjk5MTQ3ODQ4LTQ3YTc2MzdiLTZiMTItNGFiYy1hYWZmLTNlNjMzMDFmNjQyNy5naWY_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjQwMTI0JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI0MDEyNFQwMTM4NDNaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT0zNTQzNjg3YTgxOTMxODcxODI5ZDM2ODQwZmJhNjAyOTkzMDRjZmI5ODA5ZDA5MWFjZWE1YWU2OTY5ZTA0ZTQ4JlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZhY3Rvcl9pZD0wJmtleV9pZD0wJnJlcG9faWQ9MCJ9.dQElCp3fLyzDTLc7tMz8ZKoVlLz6CbZ7dK368lPj9Dw"> |
+| ![video3-ezgif com-video-to-gif-converter](https://github.com/goseongho/knps/assets/152961741/47a7637b-6b12-4abc-aaff-3e63301f6427) |
 
 - 국립공원의 사진전 수상작 작품들을 볼 수 있습니다.<br>
 - 국립공원의 관련기관의 배너 자동슬라이드로 변경.
@@ -67,7 +67,7 @@
 
 | 서브01 : 공지사항                                                                                                         |
 | :------------------------------------------------------------------------------------------------------------------------ |
-| <img src="https://private-user-images.githubusercontent.com/152961741/299152148-6dfe321c-8504-4f4e-b76d-1a62b560ef61.gif?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MDYwNjE1MTQsIm5iZiI6MTcwNjA2MTIxNCwicGF0aCI6Ii8xNTI5NjE3NDEvMjk5MTUyMTQ4LTZkZmUzMjFjLTg1MDQtNGY0ZS1iNzZkLTFhNjJiNTYwZWY2MS5naWY_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjQwMTI0JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI0MDEyNFQwMTUzMzRaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT1hNGVjM2JkY2Y5MTkwMzYwMTQxZjFiY2UzOTU5MmE3MmMyM2E1N2VmYmEzMjA0NzUxMTQ2ZjE4ZDc5OTAxOWJlJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZhY3Rvcl9pZD0wJmtleV9pZD0wJnJlcG9faWQ9MCJ9.PC6dbsWO3NkqD8Ux99tlxjxfkSCRGrzhvLDXWhhyjlg"> |
+| ![video4-ezgif com-video-to-gif-converter](https://github.com/goseongho/knps/assets/152961741/6dfe321c-8504-4f4e-b76d-1a62b560ef61) |
 
 - 메인페이지의 마우스 커서 아이콘으로 공지사항으로의 이동을 알아보기 쉽게 하였습니다.<br>
 - 국립공원의 공지사항을 세부적으로 볼 수 있는 페이지 입니다.<br>
@@ -78,7 +78,7 @@
 
 | 서브02 : 로그인                                                                                                       |
 | :---------------------------------------------------------------------------------------------------------------------- |
-| <img src= "https://private-user-images.githubusercontent.com/152961741/299152186-99713aa1-08eb-404e-ae46-968ac617bc1f.gif?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MDYwNjEzNzgsIm5iZiI6MTcwNjA2MTA3OCwicGF0aCI6Ii8xNTI5NjE3NDEvMjk5MTUyMTg2LTk5NzEzYWExLTA4ZWItNDA0ZS1hZTQ2LTk2OGFjNjE3YmMxZi5naWY_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjQwMTI0JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI0MDEyNFQwMTUxMThaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT02ZjU5MWFmYjU4NWRiYzVjNTI0MmE3MjY0NWJiNjc3NWQ0M2JmYWE2ODVkY2E1NzEyZWZhYjdmZDdmODYzMjI0JlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZhY3Rvcl9pZD0wJmtleV9pZD0wJnJlcG9faWQ9MCJ9.asow2O3JYIRa4p6cMdwGd6s6YcvQJXLWpRKT_JdZiCM"> |
+| ![video5-ezgif com-video-to-gif-converter](https://github.com/goseongho/knps/assets/152961741/99713aa1-08eb-404e-ae46-968ac617bc1f) |
 
 - 메인페이지의 마우스 커서 아이콘으로 로그인페이지로의 이동을 알아보기 쉽게 하였습니다.<br>
 - 왼쪽의 메인페이지 바로가기 아이콘 오른쪽의 로그인,회원가입, 아이디 찾기, 비밀번호 찾기가 있습니다.
